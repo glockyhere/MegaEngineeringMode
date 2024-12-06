@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/debug_activity" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/navigation_bar" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+        <TextView android:textSize="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_carservice_cacheinvalid" />
+        <TextView android:textSize="18.0dip" android:id="@id/carservice_cacheinvalid_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:text="@string/debug_carservice_cacheinvalid_opened" />
+        <Button android:textSize="18.0dip" android:id="@id/carservice_cacheinvalid_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:text="@string/debug_carservice_cacheinvalid_switch" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+        <Button android:textSize="18.0dip" android:id="@id/debug_tbox_client" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Debug tbox client" />
+        <Button android:textSize="18.0dip" android:id="@id/debug_tbox_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="Debug tbox location" />
+        <Button android:textSize="18.0dip" android:id="@id/debug_svdc_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="Debug svdc check" />
+        <Button android:textSize="18.0dip" android:id="@id/debug_reset_phy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="重置USB PHY" />
+        <Button android:textSize="18.0dip" android:id="@id/debug_reset_hub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="重置USB HUB" />
+        <Button android:textSize="18.0dip" android:id="@id/debug_reset_hub2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="重置USB HUB2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+        <Button android:textSize="18.0dip" android:id="@id/debug_audiotesttools" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_audiotesttools" />
+        <Button android:textSize="18.0dip" android:id="@id/debug_cameratesttools" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="@string/debug_cameratesttools" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+        <Button android:textSize="18.0dip" android:id="@id/tcp_dump_eth1.8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tcp_dump_eth1.8" />
+        <Button android:textSize="18.0dip" android:id="@id/tcp_dump_eth1.21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="@string/tcp_dump_eth1.21" />
+        <Button android:textSize="18.0dip" android:id="@id/tcp_dump_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="@string/tcp_dump_wifi" />
+        <Button android:textSize="18.0dip" android:id="@id/stop_tcp_dump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="@string/stop_tcp_dump" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+        <Button android:textSize="18.0dip" android:id="@id/bt_eoc_onoff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eoc_debug_off" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+        <Button android:textSize="18.0dip" android:id="@id/dump_hal_rx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dump_hal_rx" />
+        <Button android:textSize="18.0dip" android:id="@id/dump_hal_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dump_hal_tx" />
+        <Button android:textSize="18.0dip" android:id="@id/dump_fw_rx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dump_fw_rx" />
+        <Button android:textSize="18.0dip" android:id="@id/dump_fw_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dump_fw_tx" />
+        <Button android:textSize="18.0dip" android:id="@id/dump_fw_track" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dump_fw_track" />
+        <Button android:textSize="18.0dip" android:id="@id/dump_fw_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dump_fw_record" />
+        <Button android:textSize="18.0dip" android:id="@id/dump_close_export" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dump_close_export" />
+    </LinearLayout>
+</LinearLayout>

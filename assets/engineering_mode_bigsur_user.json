@@ -1,0 +1,53 @@
+{
+  "engmodeList": [
+    {
+      "name": "USB模式切换",
+      "showType": "fragment",
+      "packageName": "",
+      "className": "",
+      "fragmentName": "UsbModeSwitchFragment"
+    },
+    {
+      "name": "日志管理",
+      "showType": "activity",
+      "packageName": "com.mega.app.engineeringmode",
+      "className": "com.mega.app.engineeringmode.log.LogActivity",
+      "fragmentName": ""
+    },
+    {
+      "name": "主机产品信息",
+      "showType": "activity",
+      "packageName": "com.mega.app.engineeringmode",
+      "className": "com.mega.app.engineeringmode.info.InfoActivity",
+      "fragmentName": ""
+    },
+    {
+      "name": "下线配置功能",
+      "showType": "activity",
+      "packageName": "com.mega.app.engineeringmode",
+      "className": "com.mega.app.engineeringmode.offline.OfflineActivity",
+      "fragmentName": ""
+    },
+    {
+      "name": "调试开关选项",
+      "showType": "activity",
+      "packageName": "com.mega.app.engineeringmode",
+      "className": "com.mega.app.engineeringmode.debug.DebugActivity",
+      "fragmentName": ""
+    },
+    {
+      "name": "LCD零部件信息",
+      "showType": "activity",
+      "packageName": "com.mega.app.engineeringmode",
+      "className": "com.mega.app.engineeringmode.lcd.LcdInfoActivity",
+      "fragmentName": ""
+    },
+    {
+      "name": "高级选项",
+      "showType": "activity",
+      "packageName": "com.mega.app.engineeringmode",
+      "className": "com.mega.app.engineeringmode.advanced.AdvancedOptionsActivity",
+      "fragmentName": ""
+    }
+  ]
+}

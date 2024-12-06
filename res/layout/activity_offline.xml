@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/navigation_bar" />
+    <LinearLayout android:id="@id/touch" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/notice_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:text="@string/notice_log" />
+            <TextView android:id="@id/did_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:text="@string/did_name" android:layout_below="@id/notice_log" />
+            <Spinner android:id="@id/did" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="50.0dip" android:layout_toRightOf="@id/did_name" />
+            <TextView android:id="@id/vehicle_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:text="@string/vehicle_name" android:layout_below="@id/did" />
+            <Spinner android:id="@id/vehicle_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="85.0dip" android:layout_toRightOf="@id/vehicle_name" />
+            <Button android:id="@id/btn_write" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:text="@string/offline_modify" android:layout_below="@id/vehicle_name" />
+            <Button android:id="@id/btn_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:text="@string/offline_clear" android:layout_toRightOf="@id/btn_write" android:layout_below="@id/vehicle_name" />
+            <TextView android:textSize="18.0sp" android:textColor="@android:color/holo_red_dark" android:id="@id/tips_offline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/tips_offline" android:layout_below="@id/btn_write" />
+        </RelativeLayout>
+        <ListView android:id="@id/did_item" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:layout_weight="2.0" />
+    </LinearLayout>
+</LinearLayout>

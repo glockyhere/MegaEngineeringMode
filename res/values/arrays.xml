@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="did_array_bigsur">
+        <item>FD01</item>
+        <item>F197</item>
+    </string-array>
+    <array name="did_array_monza" />
+    <array name="did_array_sepang" />
+    <string-array name="did_array_solvang">
+        <item>FD01</item>
+        <item>F197</item>
+    </string-array>
+    <string-array name="log_level">
+        <item>Off</item>
+        <item>Fatal</item>
+        <item>Error</item>
+        <item>Warn</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
+    <string-array name="log_type_bigsure">
+        <item>ALL</item>
+        <item>ANDROID</item>
+        <item>QNX</item>
+    </string-array>
+    <string-array name="log_type_monza">
+        <item>ALL</item>
+        <item>ANDROID</item>
+        <item>QNX</item>
+        <item>S32G</item>
+        <item>TBOX</item>
+    </string-array>
+    <string-array name="qxdm_mode_name">
+        <item>ONDEVICE_RX_TX</item>
+        <item>ONDEVICE_RX</item>
+        <item>ONDEVICE_TX</item>
+        <item>SOCKET_PORT</item>
+        <item>CLOSE_DEBUG</item>
+        <item>CLEAR_ONDEVICE_LOG</item>
+    </string-array>
+    <string-array name="read_write_id">
+        <item>VIN</item>
+        <item>TUID</item>
+        <item>CERTIFICATE</item>
+        <item>OS_VERSION</item>
+    </string-array>
+    <string-array name="vehicle_type_bigsur">
+        <item>INVALID</item>
+        <item>EVE_LEVEL1</item>
+        <item>EVE_LEVEL2</item>
+        <item>EVE_LEVEL3</item>
+        <item>EV_500km_LFP_LEVEL2</item>
+        <item>EV_500km_LEVEL2</item>
+        <item>EV_700km_LEVEL2</item>
+        <item>EV_500km_LFP_LEVEL3</item>
+        <item>EV_500km_LEVEL3</item>
+        <item>EV_700km_LEVEL3</item>
+        <item>EV_500km_LEVEL3-DA</item>
+        <item>EV_500km_LEVEL4</item>
+        <item>EV_500km_LEVEL4-DA</item>
+        <item>FCV</item>
+        <item>EV_LEVEL1</item>
+        <item>EVE_LEVEL3_OPT</item>
+        <item>EV_PLR_LFP_LEVEL2</item>
+        <item>EV_PLR_LEVEL2</item>
+        <item>EV_PLR_LFP_LEVEL3</item>
+        <item>EV_PLR_LEVEL3</item>
+        <item>EV_PLR_LEVEL3-DA</item>
+        <item>EV_705_LEVEL4</item>
+        <item>EV_705LEVEL4-DA</item>
+        <item>EV_500km_BUSINESS</item>
+        <item>EVE_LEVEL3_COSTDOWN</item>
+        <item>EVE_LV3_DF05</item>
+        <item>EV_DA_GJ</item>
+        <item>EVE_LV3_OPT_DF10</item>
+        <item>EV_LV4_DF10</item>
+        <item>RESERVE1</item>
+        <item>RESERVE2</item>
+        <item>RESERVE3</item>
+        <item>ICA2_120km_LEVEL1</item>
+        <item>ICA2_200km_LEVEL2</item>
+        <item>ICA2_515km_LEVLE2_LITHIUM_IRON</item>
+        <item>ICA2_515km_LEVLE2_LITHIUM_TERNARY</item>
+        <item>ICA2_515km_LEVLE2_DA</item>
+        <item>ICA2_705km_LEVEL2</item>
+        <item>ICA2_705km_LEVEL2_DA</item>
+        <item>ICA2_120km_LEVEL2</item>
+        <item>ICA2_200km_LEVEL1</item>
+        <item>EV_605KM_ASE_TH_DC</item>
+    </string-array>
+    <string-array name="vehicle_type_monza">
+        <item>H53A_DEFAULT</item>
+        <item>H53A_BV02_PHEV_N2</item>
+        <item>H53A_BV02_PHEV_N3</item>
+        <item>H53A_BV03_EV_N2</item>
+        <item>H53A_BV04_EV_N2_LONG</item>
+        <item>H53A_BV05_EV_N3</item>
+        <item>H53A_BV06_EV_N3_LONG</item>
+        <item>H53A_ECU_CONFIG_TEST</item>
+    </string-array>
+    <string-array name="vehicle_type_sepang">
+        <item>H53A_DEFAULT</item>
+        <item>H53A_BV02_PHEV_N2</item>
+        <item>H53A_BV02_PHEV_N3</item>
+        <item>H53A_BV03_EV_N2</item>
+        <item>H53A_BV04_EV_N2_LONG</item>
+        <item>H53A_BV05_EV_N3</item>
+        <item>H53A_BV06_EV_N3_LONG</item>
+        <item>H53A_ECU_CONFIG_TEST</item>
+    </string-array>
+    <string-array name="vehicle_type_solvang">
+        <item>INVALID</item>
+        <item>EVE_LEVEL1_86KM</item>
+        <item>EVE_LEVEL2_86KM</item>
+        <item>EVE_DA_86KM</item>
+        <item>EVE_LEVEL1_160KM</item>
+        <item>EVE_LEVEL2_160KM</item>
+        <item>EVE_DA_160KM</item>
+        <item>EV_LEVEL1_530KM</item>
+        <item>EV_LEVEL2_530KM</item>
+        <item>EV_DA_530KM</item>
+        <item>EV_LEVEL1_630KM</item>
+        <item>EV_LEVEL2_630KM</item>
+        <item>EV_DA_630KM</item>
+        <item>EV_LEVEL2_4DRIVE</item>
+        <item>EV_DA_4DRIVE</item>
+        <item>EVE_LEVEL2_160KM_NC</item>
+        <item>EVE_LEVEL3_160KM</item>
+        <item>EV_LEVEL2_530KM_NC</item>
+        <item>EV_LEVEL2_630KM_NC</item>
+        <item>EVE_LEVEL2_160KM_OPT</item>
+        <item>EVE_DA_160KM_OPT</item>
+        <item>EV_LEVEL2_630KM_OPT</item>
+        <item>EV_DA_630KM_OPT</item>
+        <item>EV_F</item>
+        <item>RESERVE1</item>
+        <item>RESERVE2</item>
+        <item>RESERVE3</item>
+        <item>EV_LEVEL2_530KM_TH</item>
+        <item>EV_LEVEL2_630KM_EU</item>
+        <item>EV_LEVEL2_630KM_AUS</item>
+        <item>EV_LEVEL2_630KM_UK</item>
+    </string-array>
+</resources>

@@ -1,0 +1,4910 @@
+/**
+* @file         ./out/solvang_c673/android_json/EcuTable.json
+* @author       Binxin.cao
+* @version      V20240304
+* @date         2024.03.04
+* @brief         
+* @note          
+* @attention    COPYRIGHT MEGA
+**/
+
+
+
+{
+	"didInfoList": [
+		{
+			"didName": "车型配置",
+			"didKey": "0x33100000",               /* ID_VEHICLE_CFG_VEHICLE_MODEL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "定速巡航",
+			"didKey": "0x33100001",               /* ID_VEHICLE_CFG_CRUISE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前碰撞预警",
+			"didKey": "0x33100002",               /* ID_VEHICLE_CFG_FCW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动紧急刹车AEB-C/I（车辆）",
+			"didKey": "0x33100003",               /* ID_VEHICLE_CFG_AEB_CI */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "停走自适应巡航（ACC S&G）",
+			"didKey": "0x33100004",               /* ID_VEHICLE_CFG_ACC_SG */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车道偏离警告系统",
+			"didKey": "0x33100005",               /* ID_VEHICLE_CFG_LDW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "行人识别自动紧急刹车（AEB-P）",
+			"didKey": "0x33100006",               /* ID_VEHICLE_CFG_AEB_P */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "交通标志识别",
+			"didKey": "0x33100007",               /* ID_VEHICLE_CFG_TSR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "集成式自适应IACC",
+			"didKey": "0x33100008",               /* ID_VEHICLE_CFG_IACC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车道保持",
+			"didKey": "0x33100009",               /* ID_VEHICLE_CFG_LKA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "并线辅助",
+			"didKey": "0x3310000a",               /* ID_VEHICLE_CFG_PARALLEL_ASSIST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动泊车APA",
+			"didKey": "0x3310000b",               /* ID_VEHICLE_CFG_APA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "内置倒车影像",
+			"didKey": "0x3310000c",               /* ID_VEHICLE_CFG_RVC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后视野辅助影像",
+			"didKey": "0x3310000d",               /* ID_VEHICLE_CFG_RDA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "恒温座舱",
+			"didKey": "0x3310000e",               /* ID_VEHICLE_CFG_THERMOSTATIC_CABIN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "内置行车记录仪 DVR",
+			"didKey": "0x3310000f",               /* ID_VEHICLE_CFG_DVR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "内置360°高清全景影像",
+			"didKey": "0x33100010",               /* ID_VEHICLE_CFG_AVM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "疲劳检测",
+			"didKey": "0x33100011",               /* ID_VEHICLE_CFG_FATIGUE_MONITOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "人脸识别身份认证",
+			"didKey": "0x33100012",               /* ID_VEHICLE_CFG_FACEID */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车内监控",
+			"didKey": "0x33100013",               /* ID_VEHICLE_CFG_INCABIN_MONITOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "手势识别",
+			"didKey": "0x33100014",               /* ID_VEHICLE_CFG_GESTURE_RECOGNITION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "全息投影",
+			"didKey": "0x33100015",               /* ID_VEHICLE_CFG_HOLOGRAPHY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "实体AI交互",
+			"didKey": "0x33100016",               /* ID_VEHICLE_CFG_AI */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "语音精灵",
+			"didKey": "0x33100017",               /* ID_VEHICLE_CFG_VOICE_ASSISTANT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "智能远近光灯",
+			"didKey": "0x33100018",               /* ID_VEHICLE_CFG_AUTO_BEAM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "空调温区",
+			"didKey": "0x33100019",               /* ID_VEHICLE_CFG_AC_ZONE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车内外空气质量监控（PM2.5传感器）",
+			"didKey": "0x3310001a",               /* ID_VEHICLE_CFG_PM25_MONITOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "PM2.5高效过滤功能",
+			"didKey": "0x3310001b",               /* ID_VEHICLE_CFG_PM25_FILTER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "等离子发生器",
+			"didKey": "0x3310001c",               /* ID_VEHICLE_CFG_PLASMA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AR-实景导航",
+			"didKey": "0x3310001d",               /* ID_VEHICLE_CFG_AR_NAVIGATION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "无线充电",
+			"didKey": "0x3310001e",               /* ID_VEHICLE_CFG_WIRELESS_CHARGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "钥匙类型",
+			"didKey": "0x3310001f",               /* ID_VEHICLE_CFG_KEY_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "收音机",
+			"didKey": "0x33100020",               /* ID_VEHICLE_CFG_FM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "扬声器数量",
+			"didKey": "0x33100021",               /* ID_VEHICLE_CFG_SPEAKER_NUMBER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "语言类型",
+			"didKey": "0x33100022",               /* ID_VEHICLE_CFG_LANGUAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "方向盘类型",
+			"didKey": "0x33100023",               /* ID_VEHICLE_CFG_STEERING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "胎压监测类型",
+			"didKey": "0x33100024",               /* ID_VEHICLE_CFG_TPMS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "HUD类型",
+			"didKey": "0x33100025",               /* ID_VEHICLE_CFG_HUD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "小憩模式",
+			"didKey": "0x33100026",               /* ID_VEHICLE_CFG_NAP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后排关怀模式",
+			"didKey": "0x33100027",               /* ID_VEHICLE_CFG_BACK_CARE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "露营模式",
+			"didKey": "0x33100028",               /* ID_VEHICLE_CFG_CAMPING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动洗车模式",
+			"didKey": "0x33100029",               /* ID_VEHICLE_CFG_AUTO_WASH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "抽烟模式",
+			"didKey": "0x3310002a",               /* ID_VEHICLE_CFG_SMOKING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "旋转屏",
+			"didKey": "0x3310002b",               /* ID_VEHICLE_CFG_WHIRL_SCREEN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "声源定位（麦克风数量）",
+			"didKey": "0x3310002c",               /* ID_VEHICLE_CFG_MIC_NUMBER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后视镜位置记忆",
+			"didKey": "0x3310002d",               /* ID_VEHICLE_CFG_MIRROR_MEMORY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后视镜电动折叠",
+			"didKey": "0x3310002e",               /* ID_VEHICLE_CFG_MIRROR_FOLD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动后背门",
+			"didKey": "0x3310002f",               /* ID_VEHICLE_CFG_ELECTRIC_TAILGATE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "LED氛围灯类型",
+			"didKey": "0x33100030",               /* ID_VEHICLE_CFG_AMB_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主驾座椅加热",
+			"didKey": "0x33100031",               /* ID_VEHICLE_CFG_DRIVERSEAT_HEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主驾座椅通风",
+			"didKey": "0x33100032",               /* ID_VEHICLE_CFG_DRIVERSEAT_VENT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾座椅加热",
+			"didKey": "0x33100033",               /* ID_VEHICLE_CFG_PASSENGERSEAT_HEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾座椅通风",
+			"didKey": "0x33100034",               /* ID_VEHICLE_CFG_PASSENGERSEAT_VENT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "冰雪模式",
+			"didKey": "0x33100035",               /* ID_VEHICLE_CFG_ICE_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "赛道模式",
+			"didKey": "0x33100036",               /* ID_VEHICLE_CFG_RACE_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "篝火模式",
+			"didKey": "0x33100037",               /* ID_VEHICLE_CFG_BONFIRE_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "外置功放",
+			"didKey": "0x33100038",               /* ID_VEHICLE_CFG_EXTERNAL_AMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "哨兵模式",
+			"didKey": "0x33100039",               /* ID_VEHICLE_CFG_GUARD_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "APA7.0",
+			"didKey": "0x3310003a",               /* ID_VEHICLE_CFG_APA70 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "NDA3.0",
+			"didKey": "0x3310003b",               /* ID_VEHICLE_CFG_NDA30 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "方向盘按键配置",
+			"didKey": "0x3310003c",               /* ID_VEHICLE_CFG_STEERING_CFG */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "智能驾驶辅助",
+			"didKey": "0x3310003d",               /* ID_VEHICLE_CFG_DRIVING_ASSISTANCE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "换道辅助",
+			"didKey": "0x3310003e",               /* ID_VEHICLE_CFG_LCA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "领航智驾",
+			"didKey": "0x3310003f",               /* ID_VEHICLE_CFG_PILOT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "换道模式",
+			"didKey": "0x33100040",               /* ID_VEHICLE_CFG_LCA_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "语音提示",
+			"didKey": "0x33100041",               /* ID_VEHICLE_CFG_VOICE_TIPS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "危险报警",
+			"didKey": "0x33100042",               /* ID_VEHICLE_CFG_HAZARD_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "安全提示",
+			"didKey": "0x33100043",               /* ID_VEHICLE_CFG_SAFETY_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "信息播报",
+			"didKey": "0x33100044",               /* ID_VEHICLE_CFG_INFO_TTS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "高速公路辅助",
+			"didKey": "0x33100045",               /* ID_VEHICLE_CFG_NOA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "交通拥堵巡航",
+			"didKey": "0x33100046",               /* ID_VEHICLE_CFG_TRAFFIC_CRUISE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "智能限速",
+			"didKey": "0x33100047",               /* ID_VEHICLE_CFG_ISA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "超速预警",
+			"didKey": "0x33100048",               /* ID_VEHICLE_CFG_OVER_SPEED_WARN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "偏差值",
+			"didKey": "0x33100049",               /* ID_VEHICLE_CFG_DEVIATION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车道偏离辅助模式",
+			"didKey": "0x3310004a",               /* ID_VEHICLE_CFG_LDW_LKA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "预警方式",
+			"didKey": "0x3310004b",               /* ID_VEHICLE_CFG_WARNING_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前方横向预警",
+			"didKey": "0x3310004c",               /* ID_VEHICLE_CFG_FCTA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "倒车横向预警",
+			"didKey": "0x3310004d",               /* ID_VEHICLE_CFG_RCTA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后追尾预警",
+			"didKey": "0x3310004e",               /* ID_VEHICLE_CFG_RCW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动紧急制动",
+			"didKey": "0x3310004f",               /* ID_VEHICLE_CFG_AEB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "倒车横向自动紧急制动",
+			"didKey": "0x33100050",               /* ID_VEHICLE_CFG_RCTB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前方横向自动紧急制动",
+			"didKey": "0x33100051",               /* ID_VEHICLE_CFG_FCTB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "交通灯辅助",
+			"didKey": "0x33100052",               /* ID_VEHICLE_CFG_TRAFFICLIGHT_ASSIST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "开门预警",
+			"didKey": "0x33100053",               /* ID_VEHICLE_CFG_DOW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "开门预警语音提示",
+			"didKey": "0x33100054",               /* ID_VEHICLE_CFG_DOW_VOICE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "ADAS地图",
+			"didKey": "0x33100055",               /* ID_VEHICLE_CFG_ADAS_MAP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "高精度地图",
+			"didKey": "0x33100056",               /* ID_VEHICLE_CFG_HIGHPRECISION_MAP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "语音设置巡航车速",
+			"didKey": "0x33100057",               /* ID_VEHICLE_CFG_VOICE_SET_SPEED */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "语音控制换道",
+			"didKey": "0x33100058",               /* ID_VEHICLE_CFG_VOICE_CHANGE_LANE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "语音设置IACC/HWA权限开关",
+			"didKey": "0x33100059",               /* ID_VEHICLE_CFG_VOICE_IACC_HWA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "脱眼/疲劳/接管报警语音提示",
+			"didKey": "0x3310005a",               /* ID_VEHICLE_CFG_FATIGUE_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "起步提醒语音提示",
+			"didKey": "0x3310005b",               /* ID_VEHICLE_CFG_STARTED_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "行车辅助系统紧急事件记录需求或ADR需求（带ADS控制器车型）",
+			"didKey": "0x3310005c",               /* ID_VEHICLE_CFG_DVR_EMERGENCY_RECORD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "行车辅助系统主动推送",
+			"didKey": "0x3310005d",               /* ID_VEHICLE_CFG_DRIVING_ASSISTANCE_PUSH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "放电截止电量",
+			"didKey": "0x3310005e",               /* ID_VEHICLE_CFG_DISCHARGE_CUTOFF_QUANTITY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AVAS独立控制器",
+			"didKey": "0x3310005f",               /* ID_VEHICLE_CFG_AVAS_PWM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AVAS-A2B扬声器",
+			"didKey": "0x33100060",               /* ID_VEHICLE_CFG_AVAS_A2B_SPEAKER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AVAS-纯扬声器",
+			"didKey": "0x33100061",               /* ID_VEHICLE_CFG_AVAS_SPEAKER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "动力来源",
+			"didKey": "0x33100062",               /* ID_VEHICLE_CFG_POWER_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "灯光礼让",
+			"didKey": "0x33100063",               /* ID_VEHICLE_CFG_LIGHT_COMITY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "日间行车灯",
+			"didKey": "0x33100064",               /* ID_VEHICLE_CFG_DRL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "感应解闭锁",
+			"didKey": "0x33100065",               /* ID_VEHICLE_CFG_SENSOR_LOCK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "充电舱盖",
+			"didKey": "0x33100066",               /* ID_VEHICLE_CFG_CHARGE_COVER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "充电桩连接",
+			"didKey": "0x33100067",               /* ID_VEHICLE_CFG_CHRG_PILE_CNCT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "座椅礼让",
+			"didKey": "0x33100068",               /* ID_VEHICLE_CFG_SEAT_COMITY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前雷达开关",
+			"didKey": "0x33100069",               /* ID_VEHICLE_CFG_FRONT_RADAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "低速自动紧急制动",
+			"didKey": "0x3310006a",               /* ID_VEHICLE_CFG_MEB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "方向盘加热",
+			"didKey": "0x3310006b",               /* ID_VEHICLE_CFG_STEERING_HEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车窗开闭调节",
+			"didKey": "0x3310006c",               /* ID_VEHICLE_CFG_WINDOW_ADJUSTMENT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新增-以太网配置",
+			"didKey": "0x3310006d",               /* ID_VEHICLE_CFG_ETHERNET_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新增-位置灯图案设置",
+			"didKey": "0x3310006e",               /* ID_VEHICLE_CFG_LAMP_PATTERN_ADJUSTMENT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新增-能量流",
+			"didKey": "0x3310006f",               /* ID_VEHICLE_CFG_ENERGYUSAGE_QUIRY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新增-交互灯",
+			"didKey": "0x33100070",               /* ID_VEHICLE_CFG_INTERACTIVE_LAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新增-屏幕自动亮度调节",
+			"didKey": "0x33100071",               /* ID_VEHICLE_CFG_SCREEN_AUTOBRIGHTNESS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新增-DMS摄像头",
+			"didKey": "0x33100072",               /* ID_VEHICLE_CFG_DMS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新增-CMS摄像头",
+			"didKey": "0x33100073",               /* ID_VEHICLE_CFG_CMS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新增-天窗类型",
+			"didKey": "0x33100074",               /* ID_VEHICLE_CFG_SUNROOF_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新增-充电电量上限",
+			"didKey": "0x33100075",               /* ID_VEHICLE_CFG_CHARGE_LIMIT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后排空调",
+			"didKey": "0x33100076",               /* ID_VEHICLE_CFG_REAR_AC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "油箱盖开关",
+			"didKey": "0x33100077",               /* ID_VEHICLE_CFG_GAS_CAP_SWITCH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "手套箱",
+			"didKey": "0x33100078",               /* ID_VEHICLE_CFG_GLOVE_BOX */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "能耗分析",
+			"didKey": "0x33100079",               /* ID_VEHICLE_CFG_ENERGY_ANALYSIS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "冬季模式",
+			"didKey": "0x3310007a",               /* ID_VEHICLE_CFG_WINTER_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动除湿",
+			"didKey": "0x3310007b",               /* ID_VEHICLE_CFG_AUTO_DEHUMIDIFER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "仪表卡片界面切换",
+			"didKey": "0x3310007c",               /* ID_VEHICLE_CFG_IC_VIEW_SWITCH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车内背景光调节",
+			"didKey": "0x3310007d",               /* ID_VEHICLE_CFG_AMBIENT_LIGHT_TURN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后排安全带",
+			"didKey": "0x3310007e",               /* ID_VEHICLE_CFG_REAR_SEAT_BELT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主驾座椅电动调节（6向）",
+			"didKey": "0x3310007f",               /* ID_VEHICLE_CFG_DRIVERSEAT_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主驾座椅记忆",
+			"didKey": "0x33100080",               /* ID_VEHICLE_CFG_DRIVERSEAT_MEMORY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主驾坐垫倾角调节",
+			"didKey": "0x33100081",               /* ID_VEHICLE_CFG_DRIVER_CUSHION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主驾腰部支撑调节",
+			"didKey": "0x33100082",               /* ID_VEHICLE_CFG_DRIVERLUMBAR_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾座椅电动调节（4向）",
+			"didKey": "0x33100083",               /* ID_VEHICLE_CFG_PASSENGERSEAT_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "DMS 外置",
+			"didKey": "0x33100084",               /* ID_VEHICLE_CFG_OUTSIDE_DMS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "驱动形式",
+			"didKey": "0x33100085",               /* ID_VEHICLE_CFG_DRIVING_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "快充功能",
+			"didKey": "0x33100086",               /* ID_VEHICLE_CFG_FAST_CHARGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "尾翼",
+			"didKey": "0x33100087",               /* ID_VEHICLE_CFG_TAIL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "大灯高度调节",
+			"didKey": "0x33100088",               /* ID_VEHICLE_CFG_HEADLAMP_HEIGHT_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "外后视镜自动调整",
+			"didKey": "0x33100089",               /* ID_VEHICLE_CFG_MIRROR_AUTO_DIPPING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主驾座椅按摩",
+			"didKey": "0x3310008a",               /* ID_VEHICLE_CFG_DRIVERSEAT_MASSAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾座椅按摩",
+			"didKey": "0x3310008b",               /* ID_VEHICLE_CFG_PASSENGERSEAT_MASSAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排座椅调节形式",
+			"didKey": "0x3310008c",               /* ID_VEHICLE_CFG_REARSEAT_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排座椅加热",
+			"didKey": "0x3310008d",               /* ID_VEHICLE_CFG_REARSEAT_HEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排座椅通风",
+			"didKey": "0x3310008e",               /* ID_VEHICLE_CFG_REARSEAT_VENT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排座椅按摩",
+			"didKey": "0x3310008f",               /* ID_VEHICLE_CFG_REARSEAT_MASSAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "香氛系统",
+			"didKey": "0x33100090",               /* ID_VEHICLE_CFG_FRAGRANCE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "负离子发生器",
+			"didKey": "0x33100091",               /* ID_VEHICLE_CFG_NEGATIVE_ION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "音响系统",
+			"didKey": "0x33100092",               /* ID_VEHICLE_CFG_SOUND_SYSTEM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "油箱盖开启方式",
+			"didKey": "0x33100093",               /* ID_VEHICLE_CFG_FUEL_COVER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车联网",
+			"didKey": "0x33100094",               /* ID_VEHICLE_CFG_VEHICLE_NETWORK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "行车助手",
+			"didKey": "0x33100095",               /* ID_VEHICLE_CFG_DRIVING_ASSISTANT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "不停车收费系统",
+			"didKey": "0x33100096",               /* ID_VEHICLE_CFG_ETC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "预碰撞安全系统FCW/后向碰撞预警RCW",
+			"didKey": "0x33100097",               /* ID_VEHICLE_CFG_FCW_RCW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前车驶离提醒FVSR",
+			"didKey": "0x33100098",               /* ID_VEHICLE_CFG_FVSR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动紧急刹车AEB/低速紧急制动MEB",
+			"didKey": "0x33100099",               /* ID_VEHICLE_CFG_AEB_MEB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "盲区监测系统BSD",
+			"didKey": "0x3310009a",               /* ID_VEHICLE_CFG_BSD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "集成式巡航ICA（TJA+HWA）",
+			"didKey": "0x3310009b",               /* ID_VEHICLE_CFG_ICA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后方交通横穿警示RCTA/后方交通横穿制动RCTB",
+			"didKey": "0x3310009c",               /* ID_VEHICLE_CFG_RCTA_RCTB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "十字路口辅助JA",
+			"didKey": "0x3310009d",               /* ID_VEHICLE_CFG_JA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "智能限速控制ISLC",
+			"didKey": "0x3310009e",               /* ID_VEHICLE_CFG_ISLC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "紧急转向辅助ESA",
+			"didKey": "0x3310009f",               /* ID_VEHICLE_CFG_ESA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "紧急车道保持ELK",
+			"didKey": "0x331000a0",               /* ID_VEHICLE_CFG_ELK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "触发式自动变道TLC",
+			"didKey": "0x331000a1",               /* ID_VEHICLE_CFG_TLC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前、后部驻车雷达PDC",
+			"didKey": "0x331000a2",               /* ID_VEHICLE_CFG_PDC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "遥控泊车RPA",
+			"didKey": "0x331000a3",               /* ID_VEHICLE_CFG_RPA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "代客泊车HPP",
+			"didKey": "0x331000a4",               /* ID_VEHICLE_CFG_HPP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "远程挪车RVM",
+			"didKey": "0x331000a5",               /* ID_VEHICLE_CFG_RVM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "空气悬架",
+			"didKey": "0x331000a6",               /* ID_VEHICLE_CFG_AIR_SUSPENSION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车身颜色",
+			"didKey": "0x331000a7",               /* ID_VEHICLE_CFG_CARCOLOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "发动机控制系统模块",
+			"didKey": "0x331000a8",               /* ID_VEHICLE_CFG_EMS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车身控制模块",
+			"didKey": "0x331000a9",               /* ID_VEHICLE_CFG_BCM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "仪表模块",
+			"didKey": "0x331000aa",               /* ID_VEHICLE_CFG_ICM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Airbag Module",
+			"didKey": "0x331000ab",               /* ID_VEHICLE_CFG_ABM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "防锁刹车系统",
+			"didKey": "0x331000ac",               /* ID_VEHICLE_CFG_ABS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电子刹车",
+			"didKey": "0x331000ad",               /* ID_VEHICLE_CFG_ESP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "防盗器",
+			"didKey": "0x331000ae",               /* ID_VEHICLE_CFG_IMMO */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "TCU1",
+			"didKey": "0x331000af",               /* ID_VEHICLE_CFG_TCU1 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "TCU2",
+			"didKey": "0x331000b0",               /* ID_VEHICLE_CFG_TCU2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动空调",
+			"didKey": "0x331000b1",               /* ID_VEHICLE_CFG_CLM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电子助力转向",
+			"didKey": "0x331000b2",               /* ID_VEHICLE_CFG_EPS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "无钥匙系统",
+			"didKey": "0x331000b3",               /* ID_VEHICLE_CFG_PEPS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "SAS",
+			"didKey": "0x331000b4",               /* ID_VEHICLE_CFG_SAS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "倒车雷达",
+			"didKey": "0x331000b5",               /* ID_VEHICLE_CFG_RADAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "TCU3",
+			"didKey": "0x331000b6",               /* ID_VEHICLE_CFG_TCU3 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "TCU4",
+			"didKey": "0x331000b7",               /* ID_VEHICLE_CFG_TCU4 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电子驻车制动系统",
+			"didKey": "0x331000b8",               /* ID_VEHICLE_CFG_EPB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "RADIO_AREA",
+			"didKey": "0x331000b9",               /* ID_VEHICLE_CFG_RADIO_AREA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "倒车辅助",
+			"didKey": "0x331000ba",               /* ID_VEHICLE_CFG_RAV */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动灯",
+			"didKey": "0x331000bb",               /* ID_VEHICLE_CFG_AUTO_LIGHT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "镜子自动折叠",
+			"didKey": "0x331000bc",               /* ID_VEHICLE_CFG_MAF */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Vehicle Speed Auto lock",
+			"didKey": "0x331000bd",               /* ID_VEHICLE_CFG_VSAL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前置摄像头",
+			"didKey": "0x331000be",               /* ID_VEHICLE_CFG_FCM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Power Lift Gate",
+			"didKey": "0x331000bf",               /* ID_VEHICLE_CFG_PLG */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "扬声器数量",
+			"didKey": "0x331000c0",               /* ID_VEHICLE_CFG_SPEAK_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "转向模式选择",
+			"didKey": "0x331000c1",               /* ID_VEHICLE_CFG_STEERING_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "EIPM on CAN",
+			"didKey": "0x331000c2",               /* ID_VEHICLE_CFG_EIPM_ON_CAN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "无线电天线",
+			"didKey": "0x331000c3",               /* ID_VEHICLE_CFG_RADIO_ANT_PARAM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "IHUTIHU&DMC-IHU/TIHU Configuration",
+			"didKey": "0x331000c4",               /* ID_VEHICLE_CFG_TIHU_CFG */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "GRM Switch",
+			"didKey": "0x331000c5",               /* ID_VEHICLE_CFG_GRM_SWITCH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AVM Type",
+			"didKey": "0x331000c6",               /* ID_VEHICLE_CFG_AVM_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "NM Type",
+			"didKey": "0x331000c7",               /* ID_VEHICLE_CFG_NM_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前置雷达",
+			"didKey": "0x331000c8",               /* ID_VEHICLE_CFG_FRM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "IHU/TIHU&DMC-IHU/TIHU-Sequoia ICM Interactive Mode",
+			"didKey": "0x331000c9",               /* ID_VEHICLE_CFG_INTERAVTIVE_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "PEPS Type",
+			"didKey": "0x331000ca",               /* ID_VEHICLE_CFG_PEPS_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Multi Function Switch",
+			"didKey": "0x331000cb",               /* ID_VEHICLE_CFG_MFS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Interior Lighting",
+			"didKey": "0x331000cc",               /* ID_VEHICLE_CFG_INTERIOR_LIGHT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "SCU",
+			"didKey": "0x331000cd",               /* ID_VEHICLE_CFG_SCU */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "CWC",
+			"didKey": "0x331000ce",               /* ID_VEHICLE_CFG_CWC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "IHU/TIHU Configuration2",
+			"didKey": "0x331000cf",               /* ID_VEHICLE_CFG_TIHU_CFG2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Front windshield heating",
+			"didKey": "0x331000d0",               /* ID_VEHICLE_CFG_FWH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Interior Lighting Type",
+			"didKey": "0x331000d1",               /* ID_VEHICLE_CFG_ILT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Arkamys Advanced",
+			"didKey": "0x331000d2",               /* ID_VEHICLE_CFG_ARKAMYS_ADVANCED */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AIPM-TFT",
+			"didKey": "0x331000d3",               /* ID_VEHICLE_CFG_AIPM_TFT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Welcome function",
+			"didKey": "0x331000d4",               /* ID_VEHICLE_CFG_WELCOME_FUNC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Go to unlock and leave the lock",
+			"didKey": "0x331000d5",               /* ID_VEHICLE_CFG_AUTO_LOCK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Intelligent open trunk",
+			"didKey": "0x331000d6",               /* ID_VEHICLE_CFG_INTELLIGENT_OPEN_TRUNK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Auto defog",
+			"didKey": "0x331000d7",               /* ID_VEHICLE_CFG_ATUO_DEFOG */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "雷达（Sequoia ICM上的雷达报警显示）",
+			"didKey": "0x331000d8",               /* ID_VEHICLE_CFG_RADAR_DISPLAY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "BT Key",
+			"didKey": "0x331000d9",               /* ID_VEHICLE_CFG_BT_KEY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Audio Control PanelS",
+			"didKey": "0x331000da",               /* ID_VEHICLE_CFG_ACP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Only get time from Bus(hour/minute/second)",
+			"didKey": "0x331000db",               /* ID_VEHICLE_CFG_GET_TIME */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Carplay",
+			"didKey": "0x331000dc",               /* ID_VEHICLE_CFG_CARPLAY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "QD Link",
+			"didKey": "0x331000dd",               /* ID_VEHICLE_CFG_QD_LINK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Android Auto",
+			"didKey": "0x331000de",               /* ID_VEHICLE_CFG_ANDROID_AUTO */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "ION",
+			"didKey": "0x331000df",               /* ID_VEHICLE_CFG_ION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Assist line",
+			"didKey": "0x331000e0",               /* ID_VEHICLE_CFG_ASSIST_LINE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Rear Radars Number",
+			"didKey": "0x331000e1",               /* ID_VEHICLE_CFG_REAR_RADAR_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "EAMP",
+			"didKey": "0x331000e2",               /* ID_VEHICLE_CFG_EAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Number of Drive Mode",
+			"didKey": "0x331000e3",               /* ID_VEHICLE_CFG_DRIVE_MODE_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "CGW",
+			"didKey": "0x331000e4",               /* ID_VEHICLE_CFG_CGW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Anti Pinch Control Module",
+			"didKey": "0x331000e5",               /* ID_VEHICLE_CFG_APM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Radio Area2",
+			"didKey": "0x331000e6",               /* ID_VEHICLE_CFG_RADIO_AREA2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Face style",
+			"didKey": "0x331000e7",               /* ID_VEHICLE_CFG_FACE_STYLE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Display Type",
+			"didKey": "0x331000e8",               /* ID_VEHICLE_CFG_DISPLAY_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Navigation Information",
+			"didKey": "0x331000e9",               /* ID_VEHICLE_CFG_NAVIGATION_INFO */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Number of Drive Mode2(IHU/TIHU)",
+			"didKey": "0x331000ea",               /* ID_VEHICLE_CFG_DRIVE_MODE_NUM2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "SONY sound",
+			"didKey": "0x331000eb",               /* ID_VEHICLE_CFG_SONY_SOUND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Seat Ventilating",
+			"didKey": "0x331000ec",               /* ID_VEHICLE_CFG_SEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Lighted Roof Rack",
+			"didKey": "0x331000ed",               /* ID_VEHICLE_CFG_LIGHTED_ROOF_RACK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sunroof",
+			"didKey": "0x331000ee",               /* ID_VEHICLE_CFG_SUNROOF */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AVM Intergated Method ",
+			"didKey": "0x331000ef",               /* ID_VEHICLE_CFG_AVM_INTER_METHOD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "CMOS Interactive Mode",
+			"didKey": "0x331000f0",               /* ID_VEHICLE_CFG_CMOS_INTER_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Speed Limit Assistance Function",
+			"didKey": "0x331000f1",               /* ID_VEHICLE_CFG_SLAF */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Beidou",
+			"didKey": "0x331000f2",               /* ID_VEHICLE_CFG_BEIDOU */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Tbox/Ecall External module",
+			"didKey": "0x331000f3",               /* ID_VEHICLE_CFG_TBOX_ECALL_MODULE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Front Radar",
+			"didKey": "0x331000f4",               /* ID_VEHICLE_CFG_FRONE_RADAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "CVBOX",
+			"didKey": "0x331000f5",               /* ID_VEHICLE_CFG_CVBOX */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "EPS integrated SAS",
+			"didKey": "0x331000f6",               /* ID_VEHICLE_CFG_EPS_INTEGRATED_SAS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Rear Left Corner Radar",
+			"didKey": "0x331000f7",               /* ID_VEHICLE_CFG_RLCR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Rear Right Corner Radar",
+			"didKey": "0x331000f8",               /* ID_VEHICLE_CFG_RRCR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Climate Control Panel",
+			"didKey": "0x331000f9",               /* ID_VEHICLE_CFG_CCP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动空调",
+			"didKey": "0x331000fa",               /* ID_VEHICLE_CFG_ECLM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Idle Start Stop System",
+			"didKey": "0x331000fb",               /* ID_VEHICLE_CFG_ISSS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Speed Control Function",
+			"didKey": "0x331000fc",               /* ID_VEHICLE_CFG_SPEED_CTL_FUNC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Emergency Lane Keeping",
+			"didKey": "0x331000fd",               /* ID_VEHICLE_CFG_EMERGENCY_LANE_KEEPING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Lane Departure Prevention",
+			"didKey": "0x331000fe",               /* ID_VEHICLE_CFG_LANE_DEPARTURE_PRE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Traffic Jam Assist",
+			"didKey": "0x331000ff",               /* ID_VEHICLE_CFG_TJA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Traffic Light Identification",
+			"didKey": "0x33100100",               /* ID_VEHICLE_CFG_TLI */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Voice Recognition",
+			"didKey": "0x33100101",               /* ID_VEHICLE_CFG_VOICE_RECOGNITION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Driver Away Information",
+			"didKey": "0x33100102",               /* ID_VEHICLE_CFG_DRIVER_AWAY_INFO */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Intelligent Evasion System",
+			"didKey": "0x33100103",               /* ID_VEHICLE_CFG_IES */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Speed Limit Assistance",
+			"didKey": "0x33100104",               /* ID_VEHICLE_CFG_SLA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "SHU1D",
+			"didKey": "0x33100105",               /* ID_VEHICLE_CFG_SHU1D */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "SHU1P",
+			"didKey": "0x33100106",               /* ID_VEHICLE_CFG_SHU1P */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "SHU2L",
+			"didKey": "0x33100107",               /* ID_VEHICLE_CFG_SHU2L */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "SHU2R",
+			"didKey": "0x33100108",               /* ID_VEHICLE_CFG_SHU2R */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Reverse Assist Video Type",
+			"didKey": "0x33100109",               /* ID_VEHICLE_CFG_RAVT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "ECALL",
+			"didKey": "0x3310010a",               /* ID_VEHICLE_CFG_ECALL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "LHM",
+			"didKey": "0x3310010b",               /* ID_VEHICLE_CFG_LHM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "RHM",
+			"didKey": "0x3310010c",               /* ID_VEHICLE_CFG_RHM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "BDM",
+			"didKey": "0x3310010d",               /* ID_VEHICLE_CFG_BDM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "W-HUD",
+			"didKey": "0x3310010e",               /* ID_VEHICLE_CFG_W_HUD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Number of Midrange Loudspeaker",
+			"didKey": "0x3310010f",               /* ID_VEHICLE_CFG_MIDRANGE_SPEAK_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AR-HUD",
+			"didKey": "0x33100110",               /* ID_VEHICLE_CFG_AR_HUD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Drive Mode",
+			"didKey": "0x33100111",               /* ID_VEHICLE_CFG_DRIVE_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "OMS",
+			"didKey": "0x33100112",               /* ID_VEHICLE_CFG_OMS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "RMS",
+			"didKey": "0x33100113",               /* ID_VEHICLE_CFG_RMS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "IDCU",
+			"didKey": "0x33100114",               /* ID_VEHICLE_CFG_IDCU */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Smart Phone Key",
+			"didKey": "0x33100115",               /* ID_VEHICLE_CFG_SMART_PHONE_KEY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Rain sensor sensitivity soft switch",
+			"didKey": "0x33100116",               /* ID_VEHICLE_CFG_RAIN_SENSOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Intermittent wiper soft switch",
+			"didKey": "0x33100117",               /* ID_VEHICLE_CFG_WIPER_SOFT_SWITCH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Combination Switch Assy(integration E-gear shift)",
+			"didKey": "0x33100118",               /* ID_VEHICLE_CFG_COMBINATION_SWITCH_ASSY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Interior Atmosphere Light System",
+			"didKey": "0x33100119",               /* ID_VEHICLE_CFG_INTERIOR_ATMOSPHER_LEGHT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Interior Atmosphere Light Type",
+			"didKey": "0x3310011a",               /* ID_VEHICLE_CFG_IMTERIOR_ATMOSPHER_LIGHT_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM ABM",
+			"didKey": "0x3310011b",               /* ID_VEHICLE_CFG_ICM_ABM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM ABS",
+			"didKey": "0x3310011c",               /* ID_VEHICLE_CFG_ICM_ABS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM ESP",
+			"didKey": "0x3310011d",               /* ID_VEHICLE_CFG_ICM_ESP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "TCU1(CVT19)",
+			"didKey": "0x3310011e",               /* ID_VEHICLE_CFG_ICM_TCU1 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "TCU2 (6DCT)",
+			"didKey": "0x3310011f",               /* ID_VEHICLE_CFG_ICM_TCU2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": " Sequoia ICM CLM",
+			"didKey": "0x33100120",               /* ID_VEHICLE_CFG_ICM_CLM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM EPS",
+			"didKey": "0x33100121",               /* ID_VEHICLE_CFG_ICM_EPS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": " Sequoia ICM PEPS",
+			"didKey": "0x33100122",               /* ID_VEHICLE_CFG_ICM_PEPS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM IHU",
+			"didKey": "0x33100123",               /* ID_VEHICLE_CFG_IHU */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM TPMS",
+			"didKey": "0x33100124",               /* ID_VEHICLE_CFG_ICM_TPMS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM CGW",
+			"didKey": "0x33100125",               /* ID_VEHICLE_CFG_ICM_CGW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM EPB",
+			"didKey": "0x33100126",               /* ID_VEHICLE_CFG_ICM_EPB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM AVM",
+			"didKey": "0x33100127",               /* ID_VEHICLE_CFG_ICM_AVM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM BSD",
+			"didKey": "0x33100128",               /* ID_VEHICLE_CFG_ICM_BSD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM LDW",
+			"didKey": "0x33100129",               /* ID_VEHICLE_CFG_ICM_LDW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM PLG",
+			"didKey": "0x3310012a",               /* ID_VEHICLE_CFG_ICM_PLG */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "First Maintain",
+			"didKey": "0x3310012b",               /* ID_VEHICLE_CFG_FIRST_MAINTAIN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Maintain Mileage",
+			"didKey": "0x3310012c",               /* ID_VEHICLE_CFG_MAINTAION_MILEAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Fuel Consumption Correct",
+			"didKey": "0x3310012d",               /* ID_VEHICLE_CFG_FUEL_CONSUME_CORRECT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM Radar",
+			"didKey": "0x3310012e",               /* ID_VEHICLE_CFG_ICM_RADAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Engine Fuel Type",
+			"didKey": "0x3310012f",               /* ID_VEHICLE_CFG_ENGINE_FUEL_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM Language",
+			"didKey": "0x33100130",               /* ID_VEHICLE_CFG_ICM_LANGUAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM Over Speed Warning Function",
+			"didKey": "0x33100131",               /* ID_VEHICLE_CFG_ICM_OVER_SPEED_WARN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Second Interval Maintain Mileage",
+			"didKey": "0x33100132",               /* ID_VEHICLE_CFG_SIMM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "TCU3(CVT25/CVT18)",
+			"didKey": "0x33100133",               /* ID_VEHICLE_CFG_ICM_TCU3 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM FCM",
+			"didKey": "0x33100134",               /* ID_VEHICLE_CFG_ICM_FCM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM FRM",
+			"didKey": "0x33100135",               /* ID_VEHICLE_CFG_ICM_FRM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Rear Radars Number",
+			"didKey": "0x33100136",               /* ID_VEHICLE_CFG_ICM_REAR_RADAR_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Emission Type",
+			"didKey": "0x33100137",               /* ID_VEHICLE_CFG_EMISSION_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM Navigation Information",
+			"didKey": "0x33100138",               /* ID_VEHICLE_CFG_ICM_NAVIGATION_INFO */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM TCU4(7DCT/DHT)",
+			"didKey": "0x33100139",               /* ID_VEHICLE_CFG_ICM_TCU4 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "ESCL(CAN)",
+			"didKey": "0x3310013a",               /* ID_VEHICLE_CFG_ESCL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "EGS",
+			"didKey": "0x3310013b",               /* ID_VEHICLE_CFG_EGS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM MFS(LIN)",
+			"didKey": "0x3310013c",               /* ID_VEHICLE_CFG_ICM_MFS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM APA",
+			"didKey": "0x3310013d",               /* ID_VEHICLE_CFG_ICM_APA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "EPB Work Logic",
+			"didKey": "0x3310013e",               /* ID_VEHICLE_CFG_EPB_WORK_LOGIC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM PEPS_Type",
+			"didKey": "0x3310013f",               /* ID_VEHICLE_CFG_ICM_PEPS_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "EGS Type",
+			"didKey": "0x33100140",               /* ID_VEHICLE_CFG_EGS_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM Vehicle Type",
+			"didKey": "0x33100141",               /* ID_VEHICLE_CFG_ICM_VEHICLE_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM LKA",
+			"didKey": "0x33100142",               /* ID_VEHICLE_CFG_ICM_LKA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "ICM Number of Drive Mode",
+			"didKey": "0x33100143",               /* ID_VEHICLE_CFG_ICM_DRIVE_MODE_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Default drive mode",
+			"didKey": "0x33100144",               /* ID_VEHICLE_CFG_DEFAULT_DRIVE_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Maintain Mileage2",
+			"didKey": "0x33100145",               /* ID_VEHICLE_CFG_MAINTAION_MILEAGE2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Second interval maintain mileage2",
+			"didKey": "0x33100146",               /* ID_VEHICLE_CFG_SIMM2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "BMS",
+			"didKey": "0x33100147",               /* ID_VEHICLE_CFG_ICM_BMS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Speed Limit",
+			"didKey": "0x33100148",               /* ID_VEHICLE_CFG_SPEED_LIMIT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Face Style",
+			"didKey": "0x33100149",               /* ID_VEHICLE_CFG_ICM_FACE_STYLE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Second Row SBR + Buckle switch",
+			"didKey": "0x3310014a",               /* ID_VEHICLE_CFG_SRSBR_SWITCH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AWD",
+			"didKey": "0x3310014b",               /* ID_VEHICLE_CFG_AWD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "ICM Number of Drive Mode2(IHU/TIHU)",
+			"didKey": "0x3310014c",               /* ID_VEHICLE_CFG_ICM_DRIVE_MODE_NUM2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Third Row SBR + Buckle switch",
+			"didKey": "0x3310014d",               /* ID_VEHICLE_CFG_TRSBR_SWITCH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "fuel tank capacity",
+			"didKey": "0x3310014e",               /* ID_VEHICLE_CFG_FUEL_TANK_CAPACITY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "RLCR bit0",
+			"didKey": "0x3310014f",               /* ID_VEHICLE_CFG_RLCR1 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "RLCR bit1",
+			"didKey": "0x33100150",               /* ID_VEHICLE_CFG_RLCR2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "EBS",
+			"didKey": "0x33100151",               /* ID_VEHICLE_CFG_EBS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Maintain Mileage3",
+			"didKey": "0x33100152",               /* ID_VEHICLE_CFG_MAINTAION_MILEAGE3 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Initial Fuel Consumption2",
+			"didKey": "0x33100153",               /* ID_VEHICLE_CFG_INIT_FUEL_CONSUME2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM Emergency Lane Keeping",
+			"didKey": "0x33100154",               /* ID_VEHICLE_CFG_ICM_EMERGENCY_LANE_KEEPING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM Lane Departure Prevention",
+			"didKey": "0x33100155",               /* ID_VEHICLE_CFG_ICM_LANE_DEPARTURE_PRE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sequoia ICM Traffic Jam Assist",
+			"didKey": "0x33100156",               /* ID_VEHICLE_CFG_ICM_TJA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Second interval maintain mileage3",
+			"didKey": "0x33100157",               /* ID_VEHICLE_CFG_ICM_SIMM3 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Model Code",
+			"didKey": "0x33100158",               /* ID_VEHICLE_CFG_MODEL_CODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Brand",
+			"didKey": "0x33100159",               /* ID_VEHICLE_CFG_BRAND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Sunroof Atmosphere Lamp",
+			"didKey": "0x3310015a",               /* ID_VEHICLE_CFG_SUNROOF_ATMOSPHERE_LAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Steering Wheel Heating ",
+			"didKey": "0x3310015b",               /* ID_VEHICLE_CFG_STEERING_WHEEL_HEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Four tone speech recognition",
+			"didKey": "0x3310015c",               /* ID_VEHICLE_CFG_FTSR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车外扬声器",
+			"didKey": "0x3310015d",               /* ID_VEHICLE_CFG_OUTSIDE_SPEAKER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "指南针配置",
+			"didKey": "0x3310015e",               /* ID_VEHICLE_CFG_CFG_COMPASS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "滤波系数高8位",
+			"didKey": "0x3310015f",               /* ID_VEHICLE_CFG_CFG_ENGSPD_FILET_VAL_HIGH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "滤波系数低8位",
+			"didKey": "0x33100160",               /* ID_VEHICLE_CFG_CFG_ENGSPD_FILET_VAL_LOW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "判断阀值高8位",
+			"didKey": "0x33100161",               /* ID_VEHICLE_CFG_CFG_ENGSPD_MAX_VAL_HIGH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "判断阀值低8位",
+			"didKey": "0x33100162",               /* ID_VEHICLE_CFG_CFG_ENGSPD_MAX_VAL_LOW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "触发高温报警温度值",
+			"didKey": "0x33100163",               /* ID_VEHICLE_CFG_CFG_COOLANT_HOT_ON */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "水温高报警解除的温度值",
+			"didKey": "0x33100164",               /* ID_VEHICLE_CFG_CFG_COOLANT_HOT_OFF */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "加油延迟时间参数1",
+			"didKey": "0x33100165",               /* ID_VEHICLE_CFG_REFULE_TIME_1 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "燃油采样数据量",
+			"didKey": "0x33100166",               /* ID_VEHICLE_CFG_FUELLEVEL_SAMPLING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "加油检测升数",
+			"didKey": "0x33100167",               /* ID_VEHICLE_CFG_REFULE_DETECTION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "加油延迟时间参数2",
+			"didKey": "0x33100168",               /* ID_VEHICLE_CFG_REFULE_TIME_2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "燃油阻尼参数1",
+			"didKey": "0x33100169",               /* ID_VEHICLE_CFG_FUELLEVEL_DAMPING_1 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "加油延迟时间参数3",
+			"didKey": "0x3310016a",               /* ID_VEHICLE_CFG_REFULE_TIME_3 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "加油延迟时间参数4",
+			"didKey": "0x3310016b",               /* ID_VEHICLE_CFG_REFULE_TIME_4 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "燃油阻尼参数2",
+			"didKey": "0x3310016c",               /* ID_VEHICLE_CFG_FUELLEVEL_DAMPING_2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "最大车速",
+			"didKey": "0x3310016d",               /* ID_VEHICLE_CFG_MAX_DIGITAL_SPEED */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "低燃油报警点缓冲值",
+			"didKey": "0x3310016e",               /* ID_VEHICLE_CFG_REFUEL_HYSTRESIS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "里程计算系数",
+			"didKey": "0x3310016f",               /* ID_VEHICLE_CFG_CFG_ODO_FACTOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "瞬时油耗显示形式",
+			"didKey": "0x33100170",               /* ID_VEHICLE_CFG_CFG_IFC_DISPLAY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "瞬时油耗显示最大值",
+			"didKey": "0x33100171",               /* ID_VEHICLE_CFG_CFG_IFC_MAX */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "瞬时油耗取值间隔",
+			"didKey": "0x33100172",               /* ID_VEHICLE_CFG_CFG_IFC_INTERVAL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动尾门静止时间配置高8位",
+			"didKey": "0x33100173",               /* ID_VEHICLE_CFG_PLG_KEEP_TIME_HIGH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动尾门静止时间配置低8位",
+			"didKey": "0x33100174",               /* ID_VEHICLE_CFG_PLG_KEEP_TIME_LOW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Volcanic APP",
+			"didKey": "0x33100175",               /* ID_VEHICLE_CFG_VOLCANIC_APP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Second row seat heating",
+			"didKey": "0x33100176",               /* ID_VEHICLE_CFG_SECOND_ROW_HEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Second row seat ventilation",
+			"didKey": "0x33100177",               /* ID_VEHICLE_CFG_SECOND_ROW_VENT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Rear Bumper Type",
+			"didKey": "0x33100178",               /* ID_VEHICLE_CFG_REAR_BUMPER_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Rearview Mirror Scroll down",
+			"didKey": "0x33100179",               /* ID_VEHICLE_CFG_MIRROR_SCROLL_DOWN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Four tone speech recognition",
+			"didKey": "0x3310017a",               /* ID_VEHICLE_CFG_LEARN_SK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "ASU",
+			"didKey": "0x3310017b",               /* ID_VEHICLE_CFG_ASU */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主驾座椅坐头枕形式",
+			"didKey": "0x3310017c",               /* ID_VEHICLE_CFG_DRIVERSEAT_HEADREST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾座椅一键复位",
+			"didKey": "0x3310017d",               /* ID_VEHICLE_CFG_PASSENGERSEAT_RESET */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "加氢盖",
+			"didKey": "0x3310017e",               /* ID_VEHICLE_CFG_HYDROGEN_CAP_SWITCH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车内氛围灯",
+			"didKey": "0x3310017f",               /* ID_VEHICLE_CFG_AMB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "制动液位低信号",
+			"didKey": "0x33100180",               /* ID_VEHICLE_CFG_BRAKE_FLUID_LEVEL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "过检屏蔽（AEB/ACC/IACC）",
+			"didKey": "0x33100181",               /* ID_VEHICLE_CFG_SIGNAL_SHIELD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾屏",
+			"didKey": "0x33100182",               /* ID_VEHICLE_CFG_PASSENGER_SCREEN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主动降噪",
+			"didKey": "0x33100183",               /* ID_VEHICLE_CFG_ANC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "体感行李箱",
+			"didKey": "0x33100184",               /* ID_VEHICLE_CFG_MOTION_TRUNK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "零重力座椅",
+			"didKey": "0x33100185",               /* ID_VEHICLE_CFG_ZERO_GRAVITY_SEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后排面板",
+			"didKey": "0x33100186",               /* ID_VEHICLE_CFG_REAR_PANEL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "场景积木",
+			"didKey": "0x33100187",               /* ID_VEHICLE_CFG_SCENE_BLOCKS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "3D车控",
+			"didKey": "0x33100188",               /* ID_VEHICLE_CFG_3D_VEHICLE_CONTROL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "遮阳帘",
+			"didKey": "0x33100189",               /* ID_VEHICLE_CFG_VISOR_CURTAIN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后雨刮",
+			"didKey": "0x3310018a",               /* ID_VEHICLE_CFG_REAR_WIPER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "仪表方案",
+			"didKey": "0x3310018b",               /* ID_VEHICLE_CFG_IC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动出风口",
+			"didKey": "0x3310018c",               /* ID_VEHICLE_CFG_E_AIROUTLET */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "智能遥控钥匙",
+			"didKey": "0x3310018d",               /* ID_VEHICLE_CFG_SMART_KEY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AVAS-5W纯扬声器",
+			"didKey": "0x3310018e",               /* ID_VEHICLE_CFG_AVAS_5W */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动尾门变化度数配置",
+			"didKey": "0x3310018f",               /* ID_VEHICLE_CFG_PLG_DEGREE_OF_CHE_CONF */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动小桌板",
+			"didKey": "0x33100190",               /* ID_VEHICLE_CFG_ELECTRIC_DESK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "智能大灯(远近光自动切换)",
+			"didKey": "0x33100191",               /* ID_VEHICLE_CFG_HIGH_BEAM_ASSIST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Initial Fuel Consumption",
+			"didKey": "0x33100192",               /* ID_VEHICLE_CFG_INIT_FUEL_CONSUME */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "离车闭锁音方式",
+			"didKey": "0x33100193",               /* ID_VEHICLE_CFG_LOCK_TONE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit0:音场设置",
+			"didKey": "0x33100194",               /* ID_VEHICLE_CFG_SOUND_POSITIO */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit3:GPS 信号来源",
+			"didKey": "0x33100195",               /* ID_VEHICLE_CFG_GPS_SOURCE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit5:换挡提示软开关",
+			"didKey": "0x33100196",               /* ID_VEHICLE_CFG_GEAR_SWITCH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit6：低速提醒音软开关",
+			"didKey": "0x33100197",               /* ID_VEHICLE_CFG_LOW_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit7：能量回馈强度设置开关 （0:无, 1:有）",
+			"didKey": "0x33100198",               /* ID_VEHICLE_CFG_ENERGY_FEEDBACK_STRENGTH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit1:全液晶仪表导航投屏",
+			"didKey": "0x33100199",               /* ID_VEHICLE_CFG_NAVIGATION_PROJECTION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit2:个性化仪表",
+			"didKey": "0x3310019a",               /* ID_VEHICLE_CFG_CUSTOMIZATION_SETTING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "5G功能",
+			"didKey": "0x3310019b",               /* ID_VEHICLE_CFG_5G_FUNC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit0~1:语音控制车窗功能；",
+			"didKey": "0x3310019c",               /* ID_VEHICLE_CFG_VOICE_CTRL_WINDOW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit2:语音控制天窗软开关和抽烟模式",
+			"didKey": "0x3310019d",               /* ID_VEHICLE_CFG_VOICE_CTRL_SUNROOF */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit4:灯光主动迎宾软开关",
+			"didKey": "0x3310019e",               /* ID_VEHICLE_CFG_EXTERNAL_LIGHT_WELCOME */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit5:倒挡后雨刮自动刮刷软开关",
+			"didKey": "0x3310019f",               /* ID_VEHICLE_CFG_AUTO_WIPE_IN_REVERSE_GEAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit6:下雨自动关窗软开关（雨量传感器）",
+			"didKey": "0x331001a0",               /* ID_VEHICLE_CFG_AUTO_CLOSE_WINDOW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit0:趋势迎宾软开关",
+			"didKey": "0x331001a1",               /* ID_VEHICLE_CFG_TREAD_WELCOME */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "寻车模式设置",
+			"didKey": "0x331001a2",               /* ID_VEHICLE_CFG_CAR_SEARCH_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "锁车遮阳帘关闭",
+			"didKey": "0x331001a3",               /* ID_VEHICLE_CFG_AUTO_VISOR_CURTAIN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "变道灯次数设置",
+			"didKey": "0x331001a4",               /* ID_VEHICLE_CFG_LANE_CHANGE_LIGHTS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AR投影尾门软开关",
+			"didKey": "0x331001a5",               /* ID_VEHICLE_CFG_AR_PJT_TAILDOOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "ADAS等级",
+			"didKey": "0x331001a6",               /* ID_VEHICLE_CFG_ADAS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "智能领航辅助系统",
+			"didKey": "0x331001a7",               /* ID_VEHICLE_CFG_SPAM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "智能限速辅助模式",
+			"didKey": "0x331001a8",               /* ID_VEHICLE_CFG_ISAM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AutoPilot设置开关",
+			"didKey": "0x331001a9",               /* ID_VEHICLE_CFG_AUTO_PILOT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "“i驾趣”智能节油模式软开关",
+			"didKey": "0x331001aa",               /* ID_VEHICLE_CFG_AUTO_FUEL_SAVE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "灯语设置效果----经典",
+			"didKey": "0x331001ab",               /* ID_VEHICLE_CFG_LAMP_LANG_CLASSIC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "灯语设置效果----脉动",
+			"didKey": "0x331001ac",               /* ID_VEHICLE_CFG_LAMP_LANG_PULSE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "灯语设置效果----流星",
+			"didKey": "0x331001ad",               /* ID_VEHICLE_CFG_LAMP_LANG_METEOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "灯语设置效果----积木",
+			"didKey": "0x331001ae",               /* ID_VEHICLE_CFG_LAMP_LANG_BRICK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "变速箱类型",
+			"didKey": "0x331001af",               /* ID_VEHICLE_CFG_TRANSMISSION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "发动机类型",
+			"didKey": "0x331001b0",               /* ID_VEHICLE_CFG_ENGINE_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "STT",
+			"didKey": "0x331001b1",               /* ID_VEHICLE_CFG_STT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "DMTR",
+			"didKey": "0x331001b2",               /* ID_VEHICLE_CFG_DMTR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "网关",
+			"didKey": "0x331001b3",               /* ID_VEHICLE_CFG_GATEWAY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "TBOX",
+			"didKey": "0x331001b4",               /* ID_VEHICLE_CFG_TBOX */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前雾灯",
+			"didKey": "0x331001b5",               /* ID_VEHICLE_CFG_FRONT_FOG_LIGHT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AFS",
+			"didKey": "0x331001b6",               /* ID_VEHICLE_CFG_AFS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车门未关提醒",
+			"didKey": "0x331001b7",               /* ID_VEHICLE_CFG_DOOR_OPEN_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾驶安全带未系提醒",
+			"didKey": "0x331001b8",               /* ID_VEHICLE_CFG_PASSENGER_BELT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "保养提醒",
+			"didKey": "0x331001b9",               /* ID_VEHICLE_CFG_MAINTAIN_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "经济模式",
+			"didKey": "0x331001ba",               /* ID_VEHICLE_CFG_ECONOMIC_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "运动模式",
+			"didKey": "0x331001bb",               /* ID_VEHICLE_CFG_SPORT_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "雪花模式",
+			"didKey": "0x331001bc",               /* ID_VEHICLE_CFG_SNOWFLAKE_PATTERN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "发动机标准",
+			"didKey": "0x331001bd",               /* ID_VEHICLE_CFG_ENGINE_STANDARD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "LDW",
+			"didKey": "0x331001be",               /* ID_VEHICLE_CFG_ILDW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "LKA",
+			"didKey": "0x331001bf",               /* ID_VEHICLE_CFG_ILKA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "ABS/ESC",
+			"didKey": "0x331001c0",               /* ID_VEHICLE_CFG_IABS_ESC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AUTOHOLD",
+			"didKey": "0x331001c1",               /* ID_VEHICLE_CFG_AUTOHOLD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电子换挡",
+			"didKey": "0x331001c2",               /* ID_VEHICLE_CFG_ELECTRONIC_SHIFT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "试驾显示；",
+			"didKey": "0x331001c3",               /* ID_VEHICLE_CFG_ITEST_DRIVE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动雨刮",
+			"didKey": "0x331001c4",               /* ID_VEHICLE_CFG_AUTO_WIPER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电源管理",
+			"didKey": "0x331001c5",               /* ID_VEHICLE_CFG_POWER_MGR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "IHBC",
+			"didKey": "0x331001c6",               /* ID_VEHICLE_CFG_IHBC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "官方油耗",
+			"didKey": "0x331001c7",               /* ID_VEHICLE_CFG_OFFICIAL_FUEL_CONSUMPTIONH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "官方油耗",
+			"didKey": "0x331001c8",               /* ID_VEHICLE_CFG_OFFICIAL_FUEL_CONSUMPTIONL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit3:行车自动落锁软开关",
+			"didKey": "0x331001c9",               /* ID_VEHICLE_CFG_AUTO_DRIVE_LOCK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit6:前碰撞预警软开关及灵敏度",
+			"didKey": "0x331001ca",               /* ID_VEHICLE_CFG_IFCW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit0:陡坡缓降",
+			"didKey": "0x331001cb",               /* ID_VEHICLE_CFG_ISTEEP_DESCENT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit4：相机与相册APP",
+			"didKey": "0x331001cc",               /* ID_VEHICLE_CFG_PHOTO_ALBUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit5：环视记录仪APP",
+			"didKey": "0x331001cd",               /* ID_VEHICLE_CFG_LOOK_AROUND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit6：ASD主动声浪",
+			"didKey": "0x331001ce",               /* ID_VEHICLE_CFG_ASD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit0-1：后视镜（0：普通外后视镜（无自动折叠）；1-普通外后视镜（带自动折叠）；2-电子外后视镜）",
+			"didKey": "0x331001cf",               /* ID_VEHICLE_CFG_RMIRROR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit3：星空模式",
+			"didKey": "0x331001d0",               /* ID_VEHICLE_CFG_STARRY_SKY_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit4：提神模式",
+			"didKey": "0x331001d1",               /* ID_VEHICLE_CFG_REFRESHING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit6：灯语/灯光秀/say Hi",
+			"didKey": "0x331001d2",               /* ID_VEHICLE_CFG_LIGHT_SHOW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit7：VPA氛围灯",
+			"didKey": "0x331001d3",               /* ID_VEHICLE_CFG_AR_ATMOSPHERE_LAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit0：A字灯",
+			"didKey": "0x331001d4",               /* ID_VEHICLE_CFG_A_LAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit1：前方障碍检测软开关",
+			"didKey": "0x331001d5",               /* ID_VEHICLE_CFG_FOD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit2：侧方障碍检测软开关",
+			"didKey": "0x331001d6",               /* ID_VEHICLE_CFG_LOD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "四驱",
+			"didKey": "0x331001d7",               /* ID_VEHICLE_CFG_FOUR_WHEEL_DRIVE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动4向腰托",
+			"didKey": "0x331001d8",               /* ID_VEHICLE_CFG_E4WWD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "舒适停车软开关",
+			"didKey": "0x331001d9",               /* ID_VEHICLE_CFG_CONFORTABLE_PARKING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动驻车软开关",
+			"didKey": "0x331001da",               /* ID_VEHICLE_CFG_AUTO_PARKING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "牵引模式软开关",
+			"didKey": "0x331001db",               /* ID_VEHICLE_CFG_TRACTION_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "夜视功能",
+			"didKey": "0x331001dc",               /* ID_VEHICLE_CFG_NIGHT_EYE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "WHUD设置",
+			"didKey": "0x331001dd",               /* ID_VEHICLE_CFG_WHUD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "音乐律动设置",
+			"didKey": "0x331001de",               /* ID_VEHICLE_CFG_MUSICAL_RHYTHM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主驾安全气囊软开关",
+			"didKey": "0x331001df",               /* ID_VEHICLE_CFG_MAIN_DRIVER_AIRBAG */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Passenger airbag",
+			"didKey": "0x331001e0",               /* ID_VEHICLE_CFG_PASSENGER_AIRBAG */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "模拟声浪",
+			"didKey": "0x331001e1",               /* ID_VEHICLE_CFG_SIMULATE_SOUND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车内灯光迎宾",
+			"didKey": "0x331001e2",               /* ID_VEHICLE_CFG_INTERNEL_LIGHT_WELCOME */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后排天窗配置",
+			"didKey": "0x331001e3",               /* ID_VEHICLE_CFG_REAR_SUNROOF */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "空调防起雾设置开关",
+			"didKey": "0x331001e4",               /* ID_VEHICLE_CFG_AIR_ANTI_FOG */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "方向盘迎宾与记忆",
+			"didKey": "0x331001e5",               /* ID_VEHICLE_CFG_STEERING_WELCOME */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主动悬架",
+			"didKey": "0x331001e6",               /* ID_VEHICLE_CFG_INITIATIVE_SUSPENSION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "限速偏差设定",
+			"didKey": "0x331001e7",               /* ID_VEHICLE_CFG_SPEED_LIMIT_DEVIVATION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "标准工况/实际工况的选项",
+			"didKey": "0x331001e8",               /* ID_VEHICLE_CFG_WORKING_COND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "儿童座椅",
+			"didKey": "0x331001e9",               /* ID_VEHICLE_CFG_CHILD_SEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "音区",
+			"didKey": "0x331001ea",               /* ID_VEHICLE_CFG_VOICE_REGION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "超跑声浪",
+			"didKey": "0x331001eb",               /* ID_VEHICLE_CFG_SOUND_WAVE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "轮毂包",
+			"didKey": "0x331001ec",               /* ID_VEHICLE_CFG_HUB_PACKAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "可随场景切换车侧投影灯",
+			"didKey": "0x331001ed",               /* ID_VEHICLE_CFG_AUTO_PROJECTION_LAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "不可编辑前投影大灯",
+			"didKey": "0x331001ee",               /* ID_VEHICLE_CFG_NON_EDITABLE_HEADLAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "可自定义编辑后交互大灯",
+			"didKey": "0x331001ef",               /* ID_VEHICLE_CFG_EDITABLE_HEADLIGHT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "8.8吋翻转仪表",
+			"didKey": "0x331001f0",               /* ID_VEHICLE_CFG_FLIP_ICM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "剪刀门",
+			"didKey": "0x331001f1",               /* ID_VEHICLE_CFG_SCISSORS_DOOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "P2P智驾升级包",
+			"didKey": "0x331001f2",               /* ID_VEHICLE_CFG_SMART_CAR_UPGRADE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit6:座椅迎宾及记忆",
+			"didKey": "0x331001f3",               /* ID_VEHICLE_CFG_SEAT_WELCOME */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit0-1: 座椅加热",
+			"didKey": "0x331001f4",               /* ID_VEHICLE_CFG_SEAT_HEATING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Bit0-1: 雷达警示显示",
+			"didKey": "0x331001f5",               /* ID_VEHICLE_CFG_RADAR_SHOW */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Navigation map",
+			"didKey": "0x331001f6",               /* ID_VEHICLE_CFG_NAVIGATION_MAP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Number of USB Ports",
+			"didKey": "0x331001f7",               /* ID_VEHICLE_CFG_NUM_OF_USB_PORTS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "PAB Touch Switch",
+			"didKey": "0x331001f8",               /* ID_VEHICLE_CFG_PAB_TOUCH_SWITCH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Passenger Frontal Airbag Switch ",
+			"didKey": "0x331001f9",               /* ID_VEHICLE_CFG_PASSENGER_SWITCH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Driving Power Type",
+			"didKey": "0x331001fa",               /* ID_VEHICLE_CFG_DRIVING_POWER_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Left and right rudder type",
+			"didKey": "0x331001fb",               /* ID_VEHICLE_CFG_RUDDER_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Compass Of Worship",
+			"didKey": "0x331001fc",               /* ID_VEHICLE_CFG_COMPASS_WORSHIP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "External Discharge Function",
+			"didKey": "0x331001fd",               /* ID_VEHICLE_CFG_E_DISCHARGE_FUNC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "country or region",
+			"didKey": "0x331001fe",               /* ID_VEHICLE_CFG_COUNTRY_OR_REGION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Heating gear",
+			"didKey": "0x331001ff",               /* ID_VEHICLE_CFG_HEATING_GEAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Ventilation gear",
+			"didKey": "0x33100200",               /* ID_VEHICLE_CFG_VENTILATION_GEAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动亮度光线传感器类型(仅 C385 适用)",
+			"didKey": "0x33100201",               /* ID_VEHICLE_CFG_LIGHT_SENSOR_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动调节方向盘记忆",
+			"didKey": "0x33100202",               /* ID_VEHICLE_CFG_STEERING_MEM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾座椅记忆",
+			"didKey": "0x33100203",               /* ID_VEHICLE_CFG_PASSENGERSEAT_MEMORY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动除雾",
+			"didKey": "0x33100204",               /* ID_VEHICLE_CFG_AUTO_FOG_REMOVAL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电子儿童锁",
+			"didKey": "0x33100205",               /* ID_VEHICLE_CFG_CHILD_LOCK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "雨刮喷嘴加热",
+			"didKey": "0x33100206",               /* ID_VEHICLE_CFG_WIPER_NOZZLE_HEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Air Quality System空气质量净化系统",
+			"didKey": "0x33100207",               /* ID_VEHICLE_CFG_AIR_QUALITY_SYSTEM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Second Row Air Conditioning Control二排独立空调控制",
+			"didKey": "0x33100208",               /* ID_VEHICLE_CFG_SECOND_AC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Three Row Independent Air Conditioning三排独立空调",
+			"didKey": "0x33100209",               /* ID_VEHICLE_CFG_THREE_AC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Lefe/Right Rudder左右舵",
+			"didKey": "0x3310020a",               /* ID_VEHICLE_CFG_TWO_WAY_RUDDER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "NFC钥匙数量",
+			"didKey": "0x3310020b",               /* ID_VEHICLE_CFG_NFC_KEY_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "E0X平台",
+			"didKey": "0x3310020c",               /* ID_VEHICLE_CFG_E0X_PLATFORM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后悬架弹簧形式",
+			"didKey": "0x3310020d",               /* ID_VEHICLE_CFG_SUSPENSION_SPRING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "底盘冗余",
+			"didKey": "0x3310020e",               /* ID_VEHICLE_CFG_CHASSIS_REDUNDANCY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "长距激光雷达",
+			"didKey": "0x3310020f",               /* ID_VEHICLE_CFG_LONG_LIDAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "补盲激光雷达",
+			"didKey": "0x33100210",               /* ID_VEHICLE_CFG_BLIND_LIDAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前毫米波雷达",
+			"didKey": "0x33100211",               /* ID_VEHICLE_CFG_FRONT_MILLMETER_RADER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "轮胎规格",
+			"didKey": "0x33100212",               /* ID_VEHICLE_CFG_TIRE_SPEC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "角毫米波雷达",
+			"didKey": "0x33100213",               /* ID_VEHICLE_CFG_ANGULAR_MILLMETER_RADER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "周视摄像头",
+			"didKey": "0x33100214",               /* ID_VEHICLE_CFG_AAC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "RCM",
+			"didKey": "0x33100215",               /* ID_VEHICLE_CFG_RCM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前视广摄像头",
+			"didKey": "0x33100216",               /* ID_VEHICLE_CFG_FWC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前视长焦摄像头",
+			"didKey": "0x33100217",               /* ID_VEHICLE_CFG_FLC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前视智能摄像头",
+			"didKey": "0x33100218",               /* ID_VEHICLE_CFG_FAC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动驾驶控制中心",
+			"didKey": "0x33100219",               /* ID_VEHICLE_CFG_AUTOPILOT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "高精定位模块",
+			"didKey": "0x3310021a",               /* ID_VEHICLE_CFG_HIGHPRECISION_MODULE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "头枕扬声器",
+			"didKey": "0x3310021b",               /* ID_VEHICLE_CFG_HEADREST_SPEAKER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "座椅数量",
+			"didKey": "0x3310021c",               /* ID_VEHICLE_CFG_SEATS_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "转向管柱调节",
+			"didKey": "0x3310021d",               /* ID_VEHICLE_CFG_STEERING_STRING_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "照地灯",
+			"didKey": "0x3310021e",               /* ID_VEHICLE_CFG_GROUND_LAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后风挡玻璃加热功能",
+			"didKey": "0x3310021f",               /* ID_VEHICLE_CFG_REAR_WINDSHIELD_HEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "低音扬声器数量",
+			"didKey": "0x33100220",               /* ID_VEHICLE_CFG_SUBWOOFER_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "重低音扬声器数量",
+			"didKey": "0x33100221",               /* ID_VEHICLE_CFG_H_SUBWOOFER_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "高音扬声器数量",
+			"didKey": "0x33100222",               /* ID_VEHICLE_CFG_TWEETER_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "中音扬声器数量",
+			"didKey": "0x33100223",               /* ID_VEHICLE_CFG_ALTO_SPEAKER_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "环绕扬声器数量",
+			"didKey": "0x33100224",               /* ID_VEHICLE_CFG_SURROUND_SPEAKER_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "保养公里(首保)",
+			"didKey": "0x33100225",               /* ID_VEHICLE_CFG_FIRST_MAINTAIN_KILOMETER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "保养公里(保养间隔)",
+			"didKey": "0x33100226",               /* ID_VEHICLE_CFG_INTERVAL_MAINTAIN_KILOMETER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "220V电压输出",
+			"didKey": "0x33100227",               /* ID_VEHICLE_CFG_VOLTAGE_OUTPUT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "乘员监测",
+			"didKey": "0x33100228",               /* ID_VEHICLE_CFG_PASSENGER_MONITOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "组合仪表带限速设置",
+			"didKey": "0x33100229",               /* ID_VEHICLE_CFG_SPEED_LIMIT_SETTING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "外后视镜镜片调节方式",
+			"didKey": "0x3310022a",               /* ID_VEHICLE_CFG_ERMIL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车载电子收费单元",
+			"didKey": "0x3310022b",               /* ID_VEHICLE_CFG_VETC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "外后视镜电加热功能",
+			"didKey": "0x3310022c",               /* ID_VEHICLE_CFG_ERM_HEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动防眩目内后视镜",
+			"didKey": "0x3310022d",               /* ID_VEHICLE_CFG_EAIRM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "洗涤液位传感器",
+			"didKey": "0x3310022e",               /* ID_VEHICLE_CFG_WASHING_LIQUID_LEVEL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "转向模式选择",
+			"didKey": "0x3310022f",               /* ID_VEHICLE_CFG_STEER_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "导航信息",
+			"didKey": "0x33100230",               /* ID_VEHICLE_CFG_NAVIGATION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "收音天线参数",
+			"didKey": "0x33100231",               /* ID_VEHICLE_CFG_RADIO_ANT_PAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "UWB实体钥匙",
+			"didKey": "0x33100232",               /* ID_VEHICLE_CFG_UWB_KEY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "USB接口数量",
+			"didKey": "0x33100233",               /* ID_VEHICLE_CFG_USB_NUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "语音识别",
+			"didKey": "0x33100234",               /* ID_VEHICLE_CFG_SPEECH_RECOGNITION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "驾驶员座椅腰部调节",
+			"didKey": "0x33100235",               /* ID_VEHICLE_CFG_DRIVERSEAT_WAIST_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾座椅调节老板键",
+			"didKey": "0x33100236",               /* ID_VEHICLE_CFG_PASSENGERSEAT_ADJUST_KEY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾座椅腰部调节",
+			"didKey": "0x33100237",               /* ID_VEHICLE_CFG_PASSENGERSEAT_WAIST_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排座椅靠背调节",
+			"didKey": "0x33100238",               /* ID_VEHICLE_CFG_REARSEAT_BACKREST_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排坐垫调节",
+			"didKey": "0x33100239",               /* ID_VEHICLE_CFG_REARSEAT_CUSHION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排左座椅腰部调节",
+			"didKey": "0x3310023a",               /* ID_VEHICLE_CFG_REARSEAT_LEFT_WAIST_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排右座椅腰部调节",
+			"didKey": "0x3310023b",               /* ID_VEHICLE_CFG_REARSEAT_RIGHT_WAIST_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "雨量传感器灵敏度软开关",
+			"didKey": "0x3310023c",               /* ID_VEHICLE_CFG_RAINFALL_SENSOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "DAB",
+			"didKey": "0x3310023d",               /* ID_VEHICLE_CFG_DAB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "多色车内氛围灯",
+			"didKey": "0x3310023e",               /* ID_VEHICLE_CFG_MULTICOLOR_AMB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "大灯延时关闭",
+			"didKey": "0x3310023f",               /* ID_VEHICLE_CFG_LAMP_DELAY_OFF */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "交互式信号显示灯",
+			"didKey": "0x33100240",               /* ID_VEHICLE_CFG_INTERACTIVE_SIGNLE_LAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "迎宾仪式点亮功能",
+			"didKey": "0x33100241",               /* ID_VEHICLE_CFG_LIGHT_WELCOME */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "四音区",
+			"didKey": "0x33100242",               /* ID_VEHICLE_CFG_FOUR_ZONE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Hicar",
+			"didKey": "0x33100243",               /* ID_VEHICLE_CFG_HICAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "行车电脑",
+			"didKey": "0x33100244",               /* ID_VEHICLE_CFG_DRIVING_COMPUTER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "音响及娱乐显示屏尺寸",
+			"didKey": "0x33100245",               /* ID_VEHICLE_CFG_DISPLAY_DIMENSIONS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "WIFI",
+			"didKey": "0x33100246",               /* ID_VEHICLE_CFG_WIFI */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "蓝牙功能",
+			"didKey": "0x33100247",               /* ID_VEHICLE_CFG_BT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Telematics天线",
+			"didKey": "0x33100248",               /* ID_VEHICLE_CFG_TELEMATICS_ANT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "组合仪表亮度自动调节",
+			"didKey": "0x33100249",               /* ID_VEHICLE_CFG_BRIGHTNESS_AUTO_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "手机APP远程控制",
+			"didKey": "0x3310024a",               /* ID_VEHICLE_CFG_REMOTE_CTRL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Lion人工智能系统",
+			"didKey": "0x3310024b",               /* ID_VEHICLE_CFG_LION_INTELLIGENT_SYSTEM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "方向盘离手监测",
+			"didKey": "0x3310024c",               /* ID_VEHICLE_CFG_HAND_LEAVE_STEERING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "方向盘带仪表翻页",
+			"didKey": "0x3310024d",               /* ID_VEHICLE_CFG_STEERINGWHEEL_TURN_PAGA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "多功能方向盘按键",
+			"didKey": "0x3310024e",               /* ID_VEHICLE_CFG_STEERINGWHEEL_MOREFUNC_KEY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "组合仪表尺寸",
+			"didKey": "0x3310024f",               /* ID_VEHICLE_CFG_ICM_SIZE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "泊车雷达辅助系统",
+			"didKey": "0x33100250",               /* ID_VEHICLE_CFG_PRAS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "DFM驾驶员优先模式",
+			"didKey": "0x33100251",               /* ID_VEHICLE_CFG_DFM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "智能大灯控制",
+			"didKey": "0x33100252",               /* ID_VEHICLE_CFG_AUTO_LAMP_CTRL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "PPMID",
+			"didKey": "0x33100253",               /* ID_VEHICLE_CFG_PPMID */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "FLDRM",
+			"didKey": "0x33100254",               /* ID_VEHICLE_CFG_FLDRM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动尾翼",
+			"didKey": "0x33100255",               /* ID_VEHICLE_CFG_ELECTRIC_TAIL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排座椅记忆",
+			"didKey": "0x33100256",               /* ID_VEHICLE_CFG_REARSEAT_MEMORY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后视镜倒车下翻",
+			"didKey": "0x33100257",               /* ID_VEHICLE_CFG_MIRROR_TURN_DOWN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "驱动形式",
+			"didKey": "0x33100258",               /* ID_VEHICLE_CFG_DRIVING_FORM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾驶员双限力式安全带",
+			"didKey": "0x33100259",               /* ID_VEHICLE_CFG_FORCE_LIMITING_SEATBELT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动后扰流板",
+			"didKey": "0x3310025a",               /* ID_VEHICLE_CFG_ELECTRIC_REAR_SPOILER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "零重力座椅位置",
+			"didKey": "0x3310025b",               /* ID_VEHICLE_CFG_ZERO_G_SEAT_POSITION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后视摄像头",
+			"didKey": "0x3310025c",               /* ID_VEHICLE_CFG_RC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副仪表板滑动功能",
+			"didKey": "0x3310025d",               /* ID_VEHICLE_CFG_SUBICM_SLIDING_FUNC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "项目配置",
+			"didKey": "0x3310025e",               /* ID_VEHICLE_CFG_VEHICLE_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "IPB",
+			"didKey": "0x3310025f",               /* ID_VEHICLE_CFG_IPB */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "IDLE_START_STOP_TYPE",
+			"didKey": "0x33100260",               /* ID_VEHICLE_CFG_IDLE_START_STOP_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "BRAND",
+			"didKey": "0x33100261",               /* ID_VEHICLE_CFG_IHU_BRAND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Unit of fuel consumption",
+			"didKey": "0x33100262",               /* ID_VEHICLE_CFG_FUEL_CONSUMPTION_UNIT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Unit of tire pressure",
+			"didKey": "0x33100263",               /* ID_VEHICLE_CFG_TIRE_PRESSURE_UNIT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Electronic Gear Shift Structure",
+			"didKey": "0x33100264",               /* ID_VEHICLE_CFG_GRAR_SHIFT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Transmission type 2",
+			"didKey": "0x33100265",               /* ID_VEHICLE_CFG_TRANSMISSION_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "CDC可调阻尼悬架",
+			"didKey": "0x33100266",               /* ID_VEHICLE_CFG_CONTINUOUS_DAMPING_CTRL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "发光格栅",
+			"didKey": "0x33100267",               /* ID_VEHICLE_CFG_FLASH_GRILLE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Front Radar",
+			"didKey": "0x33100268",               /* ID_VEHICLE_CFG_ICM_FRONE_RADAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "fuel tank capacity2",
+			"didKey": "0x33100269",               /* ID_VEHICLE_CFG_FUEL_TANK_CAPACITY2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "PPMI",
+			"didKey": "0x3310026a",               /* ID_VEHICLE_CFG_PPMI */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Idle start-stop type",
+			"didKey": "0x3310026b",               /* ID_VEHICLE_CFG_ICM_IDLE_START_STOP_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "视频盒子内部配置字",
+			"didKey": "0x3310026c",               /* ID_VEHICLE_CFG_FAPA_HIL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "C385系列车型类别(车模类别)",
+			"didKey": "0x3310026d",               /* ID_VEHICLE_CFG_C385_VEHICLE_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "DVR存储方式",
+			"didKey": "0x3310026e",               /* ID_VEHICLE_CFG_DVR_STORAGE_MEDIUM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "仪表-ELK左右灯光提示",
+			"didKey": "0x3310026f",               /* ID_VEHICLE_CFG_IC_ELK_LIGHT_TIPS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "镁佳DMS_CMS算法地区",
+			"didKey": "0x33100270",               /* ID_VEHICLE_CFG_DMS_CMS_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "放电功能类型",
+			"didKey": "0x33100271",               /* ID_VEHICLE_CFG_DISCHARGE_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "直流充电功能-停止充电",
+			"didKey": "0x33100272",               /* ID_VEHICLE_CFG_STOP_CHARGING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "续航里程类型",
+			"didKey": "0x33100273",               /* ID_VEHICLE_CFG_RANGE_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "场景重构",
+			"didKey": "0x33100274",               /* ID_VEHICLE_CFG_SCENARIO_REBUILD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "海外版系统语言",
+			"didKey": "0x33100275",               /* ID_VEHICLE_CFG_OVERSEAS_LANGUAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "酒精锁",
+			"didKey": "0x33100276",               /* ID_VEHICLE_CFG_ALCOLOCK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "海外多媒体-音乐",
+			"didKey": "0x33100277",               /* ID_VEHICLE_CFG_OVERSEAS_MUSIC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "儿童遗留检测",
+			"didKey": "0x33100278",               /* ID_VEHICLE_CFG_CHILD_LEAVE_CHECK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "语音版本",
+			"didKey": "0x33100279",               /* ID_VEHICLE_CFG_VOICE_VERSION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "炉火模式-座椅加热",
+			"didKey": "0x3310027a",               /* ID_VEHICLE_CFG_STOVE_MODE_SEAT_HEAT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "低速行人自动报警音开关",
+			"didKey": "0x3310027b",               /* ID_VEHICLE_CFG_LOW_SPEED_PEDESTRIAN_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "系统设置-背景模式",
+			"didKey": "0x3310027c",               /* ID_VEHICLE_CFG_SYSTEM_BACKGROUND_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动脱钩",
+			"didKey": "0x3310027d",               /* ID_VEHICLE_CFG_ELECTRIC_UNHOOK */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "e-CALL法规",
+			"didKey": "0x3310027e",               /* ID_VEHICLE_CFG_ECALL_LAWS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "拖挂模式",
+			"didKey": "0x3310027f",               /* ID_VEHICLE_CFG_DRAGGING_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "胎压显示故障颜色",
+			"didKey": "0x33100280",               /* ID_VEHICLE_CFG_TIRE_PRESSURE_FAULT_COLOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾坐垫倾角调节",
+			"didKey": "0x33100281",               /* ID_VEHICLE_CFG_PASSENGER_CUSHION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Console类型",
+			"didKey": "0x33100282",               /* ID_VEHICLE_CFG_CONSOLE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排车顶屏",
+			"didKey": "0x33100283",               /* ID_VEHICLE_CFG_REAR_ROOF_SCREEN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后排空调",
+			"didKey": "0x33100284",               /* ID_VEHICLE_CFG_REAR_HAVC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "头枕音响",
+			"didKey": "0x33100285",               /* ID_VEHICLE_CFG_HEADREST_AUDIO */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "座位数",
+			"didKey": "0x33100286",               /* ID_VEHICLE_CFG_SEAT_NUMBER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排左侧座椅加热",
+			"didKey": "0x33100287",               /* ID_VEHICLE_CFG_REAR_SEAT_HEATING_LEFT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排右侧座椅加热",
+			"didKey": "0x33100288",               /* ID_VEHICLE_CFG_REAR_SEAT_HEATING_RIGHT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排左侧座椅通风",
+			"didKey": "0x33100289",               /* ID_VEHICLE_CFG_REAR_SEAT_VENTILATE_LEFT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排右侧座椅通风",
+			"didKey": "0x3310028a",               /* ID_VEHICLE_CFG_REAR_SEAT_VENTILATE_RIGHT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排左侧座椅按摩",
+			"didKey": "0x3310028b",               /* ID_VEHICLE_CFG_REAR_SEAT_MASSAGE_LEFT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "二排右侧座椅按摩",
+			"didKey": "0x3310028c",               /* ID_VEHICLE_CFG_REAR_SEAT_MASSAGE_RIGHT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "零重力座椅",
+			"didKey": "0x3310028d",               /* ID_VEHICLE_CFG_ZERO_GRAVITY_SEATS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副蓝牙",
+			"didKey": "0x3310028e",               /* ID_VEHICLE_CFG_SECOND_BLUETOOTH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "恒温箱",
+			"didKey": "0x3310028f",               /* ID_VEHICLE_CFG_INCUBATOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "流媒体后视镜",
+			"didKey": "0x33100290",               /* ID_VEHICLE_CFG_STREAMING_REAR_MIRROR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "DVR摄像头位置",
+			"didKey": "0x33100291",               /* ID_VEHICLE_CFG_DVR_CAMERA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电池包配置",
+			"didKey": "0x33100292",               /* ID_VEHICLE_CFG_BATTERY_PACK_CONFIG */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新课题-转向",
+			"didKey": "0x33100293",               /* ID_VEHICLE_CFG_NEW_STEER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新课题-悬架+底盘域控",
+			"didKey": "0x33100294",               /* ID_VEHICLE_CFG_NEW_SUSPENSION_CHASSIS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新课题- FCV",
+			"didKey": "0x33100295",               /* ID_VEHICLE_CFG_NEW_FCV */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "新课题-800V超充",
+			"didKey": "0x33100296",               /* ID_VEHICLE_CFG_NEW_800V */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Electronic Gear Shift Structure",
+			"didKey": "0x33100297",               /* ID_VEHICLE_CFG_ELECTRONIC_GEAR_SHIFT_STRU */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Number of full-range speakers",
+			"didKey": "0x33100298",               /* ID_VEHICLE_CFG_NUM_OF_SPEARKERS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Headlight Type",
+			"didKey": "0x33100299",               /* ID_VEHICLE_CFG_HEADLIGHT_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Three Row Independent Air Conditioning",
+			"didKey": "0x3310029a",               /* ID_VEHICLE_CFG_THREE_ROW_AIR_COND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Electric auxiliary heating",
+			"didKey": "0x3310029b",               /* ID_VEHICLE_CFG_ELECTRONIC_AUX_HEATING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Air conditioning modet",
+			"didKey": "0x3310029c",               /* ID_VEHICLE_CFG_AIR_COND_MODET */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Intelligent welcome light mode",
+			"didKey": "0x3310029d",               /* ID_VEHICLE_CFG_WELCOME_LIGHT_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Rear atmosphere light",
+			"didKey": "0x3310029e",               /* ID_VEHICLE_CFG_REAR_ASOP_LIGHT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Tencent Ecology",
+			"didKey": "0x3310029f",               /* ID_VEHICLE_CFG_TENCENT_ECOLOGY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "CIR",
+			"didKey": "0x331002a0",               /* ID_VEHICLE_CFG_CIR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Rear Window With Heating Function",
+			"didKey": "0x331002a1",               /* ID_VEHICLE_CFG_REAT_WINDOW_HEATING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Two-row air conditioner",
+			"didKey": "0x331002a2",               /* ID_VEHICLE_CFG_TWO_AIR_COND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Start-stop schema type",
+			"didKey": "0x331002a3",               /* ID_VEHICLE_CFG_START_STOP_SCHEMA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Main driver seat massage function",
+			"didKey": "0x331002a4",               /* ID_VEHICLE_CFG_MAIN_DRIVER_SEAT_MASSAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "PHEV type",
+			"didKey": "0x331002a5",               /* ID_VEHICLE_CFG_PHEV_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Cockpit ecology software",
+			"didKey": "0x331002a6",               /* ID_VEHICLE_CFG_COKPIT_ECOLOGY_SOFTWARE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Simulated sound wave",
+			"didKey": "0x331002a7",               /* ID_VEHICLE_CFG_SIMULATED_SOUND_WAVE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "里程备份使能标志",
+			"didKey": "0x331002a8",               /* ID_VEHICLE_CFG_CFG_TOTODOMTRBKPENABLE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Intelligent mode of air conditioning",
+			"didKey": "0x331002a9",               /* ID_VEHICLE_CFG_AIR_COND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Special parking mode",
+			"didKey": "0x331002aa",               /* ID_VEHICLE_CFG_SPECIAL_PARK_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "CPD",
+			"didKey": "0x331002ab",               /* ID_VEHICLE_CFG_CPD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "NOC",
+			"didKey": "0x331002ac",               /* ID_VEHICLE_CFG_NOC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Highway Assistance",
+			"didKey": "0x331002ad",               /* ID_VEHICLE_CFG_HIGHWAY_ASSISTANCE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Intelligent Speed Assistance",
+			"didKey": "0x331002ae",               /* ID_VEHICLE_CFG_SPEED_ASSISTANCE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前雾灯",
+			"didKey": "0x331002af",               /* ID_VEHICLE_CFG_FRONT_FOG_LAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "前风挡加热",
+			"didKey": "0x331002b0",               /* ID_VEHICLE_CFG_FRONT_AIR_HEATING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "纯电里程",
+			"didKey": "0x331002b1",               /* ID_VEHICLE_CFG_PURE_ELECTRIC_MILEAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "ICM AWD",
+			"didKey": "0x331002b2",               /* ID_VEHICLE_CFG_IAWD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "朝拜指南针",
+			"didKey": "0x331002b3",               /* ID_VEHICLE_CFG_PILGRIMAGE_COMPASS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车内儿童检测",
+			"didKey": "0x331002b4",               /* ID_VEHICLE_CFG_DETECTION_CHILDREN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "语言识别方式",
+			"didKey": "0x331002b5",               /* ID_VEHICLE_CFG_LANGUAGE_RECOGNITION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "PAB屏蔽",
+			"didKey": "0x331002b6",               /* ID_VEHICLE_CFG_PAB_SHIELDING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "销售区域",
+			"didKey": "0x331002b7",               /* ID_VEHICLE_CFG_SALES_AREA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电池包容量",
+			"didKey": "0x331002b8",               /* ID_VEHICLE_CFG_BATTERY_CAPACITY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "单位切换",
+			"didKey": "0x331002b9",               /* ID_VEHICLE_CFG_UNIT_CHANGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车辆配置-后雾灯",
+			"didKey": "0x331002ba",               /* ID_VEHICLE_CFG_REAR_FOG_LAMPS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后排安全带人员检测",
+			"didKey": "0x331002bb",               /* ID_VEHICLE_CFG_REAR_SEAT_BELT_HUMAN_DETECTION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "镁佳外置功放",
+			"didKey": "0x331002bc",               /* ID_VEHICLE_CFG_MEGA_AMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "隐私授权管理",
+			"didKey": "0x331002bd",               /* ID_VEHICLE_CFG_USER_PRIVACY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "陡坡缓降的文本提示",
+			"didKey": "0x331002be",               /* ID_VEHICLE_CFG_HDC_ALERT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "增程车型纯电里程",
+			"didKey": "0x331002bf",               /* ID_VEHICLE_CFG_E0YPHEV_PURE_ELECTRIC_MILEAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "地图导航",
+			"didKey": "0x331002c0",               /* ID_VEHICLE_CFG_MAP_NAVI */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "限速变化提示音",
+			"didKey": "0x331002c1",               /* ID_VEHICLE_CFG_SPEED_LIMIT_CHANGE_ALART */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "ICM one-click start switch",
+			"didKey": "0x331002c2",               /* ID_VEHICLE_CFG_ONE_CLICK_START_SWITCH_ICM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "one-click start switch",
+			"didKey": "0x331002c3",               /* ID_VEHICLE_CFG_ONE_CLICK_START_SWITCH */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AVAS",
+			"didKey": "0x331002c4",               /* ID_VEHICLE_CFG_AVAS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "DRIVE_FORM",
+			"didKey": "0x331002c5",               /* ID_VEHICLE_CFG_DRIVE_FORM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Language2",
+			"didKey": "0x331002c6",               /* ID_VEHICLE_CFG_LANGUAGE2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Face style2",
+			"didKey": "0x331002c7",               /* ID_VEHICLE_CFG_FACE_STYLE2 */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "Passenger leg supporting",
+			"didKey": "0x331002c8",               /* ID_VEHICLE_CFG_PASSENGER_LEG_SUPPORT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "DAB频段类型",
+			"didKey": "0x331002c9",               /* ID_VEHICLE_CFG_DAB_BAND_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾安全气囊“ON”指示灯",
+			"didKey": "0x331002ca",               /* ID_VEHICLE_CFG_PASSENGER_AIRBAG_INDICATOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "弹射起步",
+			"didKey": "0x331002cb",               /* ID_VEHICLE_CFG_LAUNCH_CONTROL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "驾驶模式随动",
+			"didKey": "0x331002cc",               /* ID_VEHICLE_CFG_DRIVING_MODE_CHANGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "低油提醒(加油无忧)",
+			"didKey": "0x331002cd",               /* ID_VEHICLE_CFG_FUELL_LOW_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "燃油相关设置及提示（(油车特有功能关联)）（注1）",
+			"didKey": "0x331002ce",               /* ID_VEHICLE_CFG_FUELL_SETTING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "低电提醒（注2）",
+			"didKey": "0x331002cf",               /* ID_VEHICLE_CFG_BATTERY_LOW_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电子外后视镜调节",
+			"didKey": "0x331002d0",               /* ID_VEHICLE_CFG_ELECTRIC_MIRROR_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "外后视镜倒车辅助",
+			"didKey": "0x331002d1",               /* ID_VEHICLE_CFG_MIRROR_PA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "整车CAN",
+			"didKey": "0x331002d2",               /* ID_VEHICLE_CFG_ENTIRE_CAN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "私有CAN",
+			"didKey": "0x331002d3",               /* ID_VEHICLE_CFG_PRIVATE_CAN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "以太网",
+			"didKey": "0x331002d4",               /* ID_VEHICLE_CFG_ETHERNET */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "需4G参与相关功能(注3)",
+			"didKey": "0x331002d5",               /* ID_VEHICLE_CFG_4G_FUNC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "方控按键配置",
+			"didKey": "0x331002d6",               /* ID_VEHICLE_CFG_STEERING_KEY_CFG_METHOD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "显示屏分辨率",
+			"didKey": "0x331002d7",               /* ID_VEHICLE_CFG_SCREEN_RESOLUTION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "低速提示音开关（AVAS）",
+			"didKey": "0x331002d8",               /* ID_VEHICLE_CFG_LOW_SPEED_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "智能交互载体",
+			"didKey": "0x331002d9",               /* ID_VEHICLE_CFG_INTELLIGENT_INTER_CARRIER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "后背门",
+			"didKey": "0x331002da",               /* ID_VEHICLE_CFG_TAILGATE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "in Call介绍",
+			"didKey": "0x331002db",               /* ID_VEHICLE_CFG_INCALL_INTRODCTION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电池类型",
+			"didKey": "0x331002dc",               /* ID_VEHICLE_CFG_BATTERY_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "HUD自适应调节亮度",
+			"didKey": "0x331002dd",               /* ID_VEHICLE_CFG_HUD_AUTO_BRIGHTNESS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车内摄像头(IMS)（注5）",
+			"didKey": "0x331002de",               /* ID_VEHICLE_CFG_CAMERA_IMS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "驾驶员左前摄像头(DMS)（注5）",
+			"didKey": "0x331002df",               /* ID_VEHICLE_CFG_LEFT_FRONT_CAMERA_DMS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "空调APP",
+			"didKey": "0x331002e0",               /* ID_VEHICLE_CFG_AC_APP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "空调浮屏显示",
+			"didKey": "0x331002e1",               /* ID_VEHICLE_CFG_AC_FLOAT_DISPLAY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "座舱新风系统（离子发生器）",
+			"didKey": "0x331002e2",               /* ID_VEHICLE_CFG_FRESH_AIR_SYSTEM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "座椅记忆",
+			"didKey": "0x331002e3",               /* ID_VEHICLE_CFG_SEAT_MEMORY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "离子发生器",
+			"didKey": "0x331002e4",               /* ID_VEHICLE_CFG_ION_GEN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车内PM2.5",
+			"didKey": "0x331002e5",               /* ID_VEHICLE_CFG_PM25_MONITOR_INSIDE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车外PM2.5",
+			"didKey": "0x331002e6",               /* ID_VEHICLE_CFG_PM25_MONITOR_OUTSIDE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "OTA功能",
+			"didKey": "0x331002e7",               /* ID_VEHICLE_CFG_OTA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "手机互联",
+			"didKey": "0x331002e8",               /* ID_VEHICLE_CFG_PHONE_CONNECT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "远程视频监控功能",
+			"didKey": "0x331002e9",               /* ID_VEHICLE_CFG_REMOTE_VIDEO_MONITOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "近程分享功能",
+			"didKey": "0x331002ea",               /* ID_VEHICLE_CFG_NEAR_SHARE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动巡航驾驶辅助",
+			"didKey": "0x331002eb",               /* ID_VEHICLE_CFG_DRIVING_ASSISTANT_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "影像",
+			"didKey": "0x331002ec",               /* ID_VEHICLE_CFG_CAMERA_DISPLAY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "行车记录仪类型",
+			"didKey": "0x331002ed",               /* ID_VEHICLE_CFG_DVR_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "全景影像类型",
+			"didKey": "0x331002ee",               /* ID_VEHICLE_CFG_AVM_CONTROL_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "DVR付费",
+			"didKey": "0x331002ef",               /* ID_VEHICLE_CFG_DVR_PAY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "抖音拍摄类型",
+			"didKey": "0x331002f0",               /* ID_VEHICLE_CFG_DOUYIN_CAPTURE_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车位号识别",
+			"didKey": "0x331002f1",               /* ID_VEHICLE_CFG_STALL_NUMBER_RECOGNIZE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "全景摄像头算法供应商",
+			"didKey": "0x331002f2",               /* ID_VEHICLE_CFG_AVM_ALGO_VENDOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": " 影像输入方式",
+			"didKey": "0x331002f3",               /* ID_VEHICLE_CFG_CAMERA_INPUT_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "脱敏算法供应商",
+			"didKey": "0x331002f4",               /* ID_VEHICLE_CFG_MASKING_VENDOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "澎湃音效",
+			"didKey": "0x331002f5",               /* ID_VEHICLE_CFG_SURGING_EFFEC */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "音区",
+			"didKey": "0x331002f6",               /* ID_VEHICLE_CFG_SOUND_ZONE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "AVM摄像头升级",
+			"didKey": "0x331002f7",               /* ID_VEHICLE_CFG_AVM_CAMERA_UPGRADE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "IMS摄像头升级",
+			"didKey": "0x331002f8",               /* ID_VEHICLE_CFG_IMS_CAMERA_UPGRADE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "DMS摄像头升级",
+			"didKey": "0x331002f9",               /* ID_VEHICLE_CFG_DMS_CAMERA_UPGRADE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "双屏互动",
+			"didKey": "0x331002fa",               /* ID_VEHICLE_CFG_DUAL_SCREEN_INTERACTION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "氛围灯功能",
+			"didKey": "0x331002fb",               /* ID_VEHICLE_CFG_AMB_LAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "大灯自适应调节",
+			"didKey": "0x331002fc",               /* ID_VEHICLE_CFG_HEADLAMP_AUTO_ADJUST */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自动远光灯",
+			"didKey": "0x331002fd",               /* ID_VEHICLE_CFG_AUTO_HIGH_BEAM */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "天窗控制",
+			"didKey": "0x331002fe",               /* ID_VEHICLE_CFG_SUNROOF_CONTROL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "大灯高度",
+			"didKey": "0x331002ff",               /* ID_VEHICLE_CFG_HEADLAMP_HEIGHT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "遮阳帘控制",
+			"didKey": "0x33100300",               /* ID_VEHICLE_CFG_VISOR_CURTAIN_CONTROL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "顶灯自动打开",
+			"didKey": "0x33100301",               /* ID_VEHICLE_CFG_ROOF_LIGHT_AUOT_OPEN */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "徽标灯（发光标志之翼）",
+			"didKey": "0x33100302",               /* ID_VEHICLE_CFG_LOGO_LAMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电台",
+			"didKey": "0x33100303",               /* ID_VEHICLE_CFG_RADIO_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "音乐",
+			"didKey": "0x33100304",               /* ID_VEHICLE_CFG_MUSIC_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "用户中心",
+			"didKey": "0x33100305",               /* ID_VEHICLE_CFG_USER_CENTER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "地图widget",
+			"didKey": "0x33100306",               /* ID_VEHICLE_CFG_MAPWIDGET */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "语音类型",
+			"didKey": "0x33100307",               /* ID_VEHICLE_CFG_VOICE_ASSISTANT_VENDOR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车外语音",
+			"didKey": "0x33100308",               /* ID_VEHICLE_CFG_VOICE_OUTSIDE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "驾驶模式设置开关",
+			"didKey": "0x33100309",               /* ID_VEHICLE_CFG_DRIVING_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "闭锁自动升窗",
+			"didKey": "0x3310030a",               /* ID_VEHICLE_CFG_WINDOW_AUOT_LIFT_LOCKING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "机油压力低报警连接方式",
+			"didKey": "0x3310030b",               /* ID_VEHICLE_CFG_LMOP_WARNING_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "备胎有无",
+			"didKey": "0x3310030c",               /* ID_VEHICLE_CFG_SPARE_TYRE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "增程（发动机）/纯电EV",
+			"didKey": "0x3310030d",               /* ID_VEHICLE_CFG_REEV_OR_EV */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "FD01功能配置大版本模版",
+			"didKey": "0x3310030e",               /* ID_VEHICLE_CFG_FUNCT_CONF_MODEL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "智驾方案",
+			"didKey": "0x3310030f",               /* ID_VEHICLE_CFG_DA_SOLUTION */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "香氛功能",
+			"didKey": "0x33100310",               /* ID_VEHICLE_CFG_E_FRAGRANCE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "舒享模式",
+			"didKey": "0x33100311",               /* ID_VEHICLE_CFG_COMFORT_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动尾翼",
+			"didKey": "0x33100312",               /* ID_VEHICLE_CFG_E_EMPENNAGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "子品牌",
+			"didKey": "0x33100313",               /* ID_VEHICLE_CFG_SUB_BRAND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "车机厂商",
+			"didKey": "0x33100314",               /* ID_VEHICLE_CFG_CDC_SUPPLIER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "主驾云感座椅",
+			"didKey": "0x33100315",               /* ID_VEHICLE_CFG_DRIVERSEAT_CLOUD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "副驾云感座椅",
+			"didKey": "0x33100316",               /* ID_VEHICLE_CFG_PASSENGERSEAT_CLOUD */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "高性能功率放大 器",
+			"didKey": "0x33100317",               /* ID_VEHICLE_CFG_HIGHPERFORMANCE_AMP */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "最大续航里程(华为使用)",
+			"didKey": "0x33100318",               /* ID_VEHICLE_CFG_STANDARD_RANGE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "超级省电模式",
+			"didKey": "0x33100319",               /* ID_VEHICLE_CFG_POWER_SAVING_MODE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "遥控进出",
+			"didKey": "0x3310031a",               /* ID_VEHICLE_CFG_REMOTE_INOUT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "诊断安全服务",
+			"didKey": "0x3310031b",               /* ID_VEHICLE_CFG_DIAGNOSTIC_SAFETY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "MCU地区配置",
+			"didKey": "0x3310031c",               /* ID_VEHICLE_CFG_MCU_AREA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "外置功放品牌",
+			"didKey": "0x3310031d",               /* ID_VEHICLE_CFG_EXTERNAL_AMP_BRAND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "电动调节方向盘",
+			"didKey": "0x3310031e",               /* ID_VEHICLE_CFG_ELECTRIC_STEERING_WHEEL */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "海外网络运营商",
+			"didKey": "0x3310031f",               /* ID_VEHICLE_CFG_SERVICE_PROVIDER_AREA */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "摄像头型号",
+			"didKey": "0x33100320",               /* ID_VEHICLE_CFG_CAMERA_TYPE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "门把手",
+			"didKey": "0x33100321",               /* ID_VEHICLE_CFG_DOOR_HANDALER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "状态栏",
+			"didKey": "0x33100322",               /* ID_VEHICLE_CFG_STATUS_BAR */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "系统设置_热点",
+			"didKey": "0x33100323",               /* ID_VEHICLE_CFG_HOTSPOT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "b/ecall 声音",
+			"didKey": "0x33100324",               /* ID_VEHICLE_CFG_ECALL_SOUND */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "账号",
+			"didKey": "0x33100325",               /* ID_VEHICLE_CFG_ACCOUNT */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "自定义壁纸设置",
+			"didKey": "0x33100326",               /* ID_VEHICLE_CFG_CUSTOMIED_WALLPAPER */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "手动时间",
+			"didKey": "0x33100327",               /* ID_VEHICLE_CFG_CUSTOMIED_TIME_SETTING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "时区设置",
+			"didKey": "0x33100328",               /* ID_VEHICLE_CFG_TIME_ZONE */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "海外蓝牙钥匙",
+			"didKey": "0x33100329",               /* ID_VEHICLE_CFG_BLUETOOTH_KEY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "限速/电子眼提示",
+			"didKey": "0x3310032a",               /* ID_VEHICLE_CFG_SPEED_LIMIT_WARNING */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "驾驶能量",
+			"didKey": "0x3310032b",               /* ID_VEHICLE_CFG_DRIVING_ENERGY */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "HUD主题",
+			"didKey": "0x3310032c",               /* ID_VEHICLE_CFG_HUD_THEME */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "全景声",
+			"didKey": "0x3310032d",               /* ID_VEHICLE_CFG_WANOS */
+			"getMethod": ""
+		},
+
+		{
+			"didName": "萤星呼吸灯",
+			"didKey": "0x3310032e",               /* ID_VEHICLE_CFG_YINGXING_BREATHING_LIGHT */
+			"getMethod": ""
+		}
+
+	]
+}
+
+
+
+/********************* (C) COPYRIGHT MEGA *******END OF FILE ********/

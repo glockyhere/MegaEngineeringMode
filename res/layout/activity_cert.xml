@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/navigation_bar" />
+    <LinearLayout android:id="@id/touch" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:id="@id/read_write_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:text="@string/read_write_notice" />
+            <TextView android:id="@id/tv_id_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="18.0dip" android:text="@string/id_name" android:layout_below="@id/read_write_notice" />
+            <Spinner android:entries="@array/read_write_id" android:id="@id/id_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="54.0dip" android:layout_toRightOf="@id/tv_id_name" />
+            <TextView android:id="@id/et_vin_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="18.0dip" android:text="@string/et_vin_name" android:layout_below="@id/tv_id_name" />
+            <EditText android:id="@id/et_vin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="77.0dip" android:hint="@string/vin_input" android:layout_toRightOf="@id/et_vin_name" />
+            <Button android:id="@id/choose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="18.0dip" android:text="@string/choose" android:layout_below="@id/et_vin_name" />
+            <Button android:id="@id/write" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="18.0dip" android:text="@string/write" android:layout_toRightOf="@id/choose" android:layout_below="@id/et_vin_name" />
+            <Button android:id="@id/read" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="18.0dip" android:text="@string/read" android:layout_toRightOf="@id/write" android:layout_below="@id/et_vin_name" />
+            <TextView android:textSize="18.0sp" android:textColor="@android:color/holo_red_dark" android:id="@id/tips_cert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/tips_cert" android:layout_below="@id/choose" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+            <TextView android:textSize="18.0sp" android:id="@id/tv_id_choose_content_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:text="@string/id_content_choose_notice" />
+            <TextView android:id="@id/tv_id_choose_content" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:layout_below="@id/tv_id_choose_content_notice" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+            <TextView android:textSize="18.0sp" android:id="@id/tv_id_content_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:text="@string/id_content_title" />
+            <TextView android:id="@id/tv_id_content" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:layout_below="@id/tv_id_content_notice" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
